@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Qezvoro Invest — Écosystème de Trading Innovant avec IA</title>
+	<meta name="description" content="Libérez le potentiel de votre portefeuille d'investissement grâce à des technologies d'IA révolutionnaires. Trading de cryptomonnaies, actions et autres actifs.">
+
+	
+   <link rel="canonical" href="https://your-domain.com/fr/index.html">
+   <link rel="alternate" hreflang="ru" href="https://your-domain.com/ru/index.html">
+   <link rel="alternate" hreflang="en" href="https://your-domain.com/en/index.html">
+   <link rel="alternate" hreflang="es" href="https://your-domain.com/es/index.html">
+   <link rel="alternate" hreflang="de" href="https://your-domain.com/de/index.html">
+   <link rel="alternate" hreflang="fr" href="https://your-domain.com/fr/index.html">
+   <link rel="alternate" hreflang="it" href="https://your-domain.com/it/index.html">
+   <link rel="alternate" hreflang="ja" href="https://your-domain.com/ja/index.html">
+   <link rel="alternate" hreflang="ms" href="https://your-domain.com/ms/index.html">
+   <link rel="alternate" hreflang="pt" href="https://your-domain.com/pt/index.html">
+   <link rel="alternate" hreflang="cs" href="https://your-domain.com/cs/index.html">
+   <link rel="alternate" hreflang="x-default" href="https://your-domain.com/ru/index.html">
+
+
+	<script src="https://cdn.tailwindcss.com"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+	<style>
+		body {
+			font-family: 'Inter', sans-serif;
+			background-color: #0a0a0a;
+			color: #e2e8f0
+		}
+
+		.gradient-text {
+			background: linear-gradient(90deg, #38bdf8, #818cf8);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent
+		}
+
+		.cta-button {
+			background: linear-gradient(90deg, #38bdf8, #818cf8);
+			transition: all .3s ease;
+			box-shadow: 0 4px 15px rgba(56, 189, 248, .2)
+		}
+
+		.cta-button:hover {
+			transform: translateY(-2px);
+			box-shadow: 0 6px 20px rgba(56, 189, 248, .3)
+		}
+
+		.card {
+			background-color: rgba(30, 41, 59, .5);
+			border: 1px solid rgba(51, 65, 85, .7);
+			backdrop-filter: blur(10px);
+			-webkit-backdrop-filter: blur(10px);
+			border-radius: 1rem;
+			transition: all .3s ease
+		}
+
+		.card:hover {
+			border-color: #38bdf8;
+			transform: translateY(-5px)
+		}
+
+		.form-input {
+			background-color: #1e293b;
+			border: 1px solid #334155;
+			color: #e2e8f0
+		}
+
+		.form-input:focus {
+			outline: 0;
+			border-color: #38bdf8;
+			box-shadow: 0 0 0 2px rgba(56, 189, 248, .5)
+		}
+
+		.scroll-animation {
+			opacity: 0;
+			transform: translateY(30px);
+			transition: opacity .6s ease-out, transform .6s ease-out
+		}
+
+		.scroll-animation.visible {
+			opacity: 1;
+			transform: translateY(0)
+		}
+
+		.accordion-item .accordion-content {
+			max-height: 0;
+			overflow: hidden;
+			transition: max-height .5s ease-in-out
+		}
+
+		.accordion-item.active .accordion-content {
+			max-height: 500px
+		}
+
+		.accordion-item.active .accordion-icon {
+			transform: rotate(180deg)
+		}
+
+		.testimonial-slide {
+			display: none
+		}
+
+		.testimonial-slide.active {
+			display: block
+		}
+	</style>
+</head>
+
+<body class="antialiased">
+
+	<header class="fixed top-0 left-0 right-0 z-50 bg-opacity-80 backdrop-blur-md border-b border-slate-800">
+		<div class="container mx-auto px-6 py-4 flex justify-between items-center">
+			<a href="index.html" class="text-2xl font-bold gradient-text">Qezvoro</a>
+			<div class="flex items-center space-x-4 md:space-x-6">
+				<nav class="hidden md:flex items-center space-x-6">
+					<a href="about.html" class="text-slate-300 hover:text-sky-400 transition">À propos</a>
+					<a href="reviews.html" class="text-slate-300 hover:text-sky-400 transition">Avis</a>
+					<a href="contacts.html" class="text-slate-300 hover:text-sky-400 transition">Contact</a>
+				</nav>
+				
+        <div class="relative" id="lang-switcher">
+            <button id="lang-switcher-button" class="flex items-center text-slate-300 hover:text-sky-400 transition">
+                <svg class="w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 21l5.25-11.25L21 21m-9-3h7.5M3 5.621a48.474 48.474 0 016-.371m0 0c1.12 0 2.233.038 3.334.114M9 5.25V3m3.334 2.364C11.176 10.658 7.69 15.08 3 17.502" /></svg>
+                <span class="uppercase">fr</span>
+                <svg class="w-4 h-4 ml-1" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" /></svg>
+            </button>
+            <div id="lang-switcher-menu" class="absolute top-full right-0 mt-2 w-40 bg-slate-800 border border-slate-700 rounded-md shadow-lg hidden z-10">
+                <a href="../ru/index.html" class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700">Русский</a><a href="../en/index.html" class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700">English</a><a href="../es/index.html" class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700">Español</a><a href="../de/index.html" class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700">Deutsch</a><a href="../it/index.html" class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700">Italiano</a><a href="../ja/index.html" class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700">日本語</a><a href="../ms/index.html" class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700">Bahasa Melayu</a><a href="../pt/index.html" class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700">Português</a><a href="../cs/index.html" class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700">Čeština</a>
+            </div>
+        </div>
+    
+				<a href="#register"
+					class="hidden sm:block cta-button text-white font-semibold px-5 py-2 rounded-lg">Commencer</a>
+			</div>
+		</div>
+	</header>
+
+	<main>
+		<section class="pt-32 pb-20 relative overflow-hidden">
+			<div
+				class="absolute top-0 left-0 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-sky-500/20 rounded-full blur-3xl -z-10">
+			</div>
+			<div
+				class="absolute bottom-0 right-0 translate-x-1/2 translate-y-1/2 w-96 h-96 bg-indigo-500/20 rounded-full blur-3xl -z-10">
+			</div>
+			<div class="container mx-auto px-6 text-center">
+				<h1 class="text-4xl md:text-6xl font-extrabold text-white leading-tight mb-4 scroll-animation">
+					<span class="gradient-text">Qezvoro Invest</span> — Écosystème de trading innovant de nouvelle génération</h1>
+				<p class="max-w-3xl mx-auto text-slate-300 text-lg mb-6 scroll-animation" style="transition-delay: 0.1s;">
+					Libérez le potentiel illimité de votre portefeuille d'investissement grâce à des technologies d'IA révolutionnaires. Qezvoro Trading offre un accès complet au trading de cryptomonnaies, d'actions internationales, de fonds d'investissement et de matières premières grâce à nos algorithmes avancés d'apprentissage automatique.</p>
+				<p class="max-w-3xl mx-auto text-slate-400 text-lg mb-8 scroll-animation" style="transition-delay: 0.2s;">
+					La plateforme Qezvoro analyse en continu des données à grande échelle : des variations microscopiques des cours aux analyses approfondies du sentiment public et des tendances économiques internationales. Bénéficiez de conseils professionnels et prenez des décisions éclairées grâce aux technologies du futur.</p>
+				<div class="flex justify-center items-center gap-4 scroll-animation" style="transition-delay: 0.3s;">
+					<a href="#register" class="cta-button text-white font-bold px-8 py-4 rounded-lg text-lg">Activer l'analyse de l'IA</a>
+				</div>
+				<p class="mt-4 text-sm text-slate-500 scroll-animation" style="transition-delay: 0.4s;">Activation gratuite • Compte d'essai • Aucune obligation financière
+				</p>
+			</div>
+		</section>
+
+		<section id="register" class="py-20 bg-slate-900/50">
+			<div class="container mx-auto px-6">
+				<div class="max-w-4xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+					<div class="text-center md:text-left scroll-animation">
+						<h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Activez le trading IA en <span class="gradient-text">45 secondes</span></h2>
+						<p class="text-slate-300 text-lg">Plus de 48 000 utilisateurs actifs font déjà confiance à nos algorithmes.</p>
+					</div>
+					<div class="card p-8 scroll-animation" style="transition-delay: 0.1s;">
+						<form>
+							<div class="space-y-4">
+								<input type="text" placeholder="Nom et prénom"
+									class="w-full p-3 rounded-md form-input">
+								<input type="email" placeholder="Adresse email"
+									class="w-full p-3 rounded-md form-input">
+								<input type="tel" placeholder="Numéro de téléphone de contact"
+									class="w-full p-3 rounded-md form-input">
+								<select class="w-full p-3 rounded-md form-input">
+									<option>Expérience de trading</option>
+									<option>Débutant</option>
+									<option>Intermédiaire</option>
+									<option>Expert</option>
+								</select>
+								<button type="submit"
+									class="w-full cta-button text-white font-bold p-3 rounded-md text-lg">Activer l'analyse de l'IA</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="py-20">
+			<div class="container mx-auto px-6 text-center">
+				<div class="grid grid-cols-2 md:grid-cols-5 gap-8">
+					<div class="scroll-animation">
+						<p class="text-4xl font-bold gradient-text counter" data-target="48000">0</p>
+						<p class="text-slate-400 mt-2">utilisateurs actifs</p>
+					</div>
+					<div class="scroll-animation" style="transition-delay: 0.1s;">
+						<p class="text-4xl font-bold gradient-text"><span class="counter" data-target="12.8">0</span>B+</p>
+						<p class="text-slate-400 mt-2">volume total des transactions</p>
+					</div>
+					<div class="scroll-animation" style="transition-delay: 0.2s;">
+						<p class="text-4xl font-bold gradient-text"><span class="counter" data-target="98">0</span>%</p>
+						<p class="text-slate-400 mt-2">précision des prévisions</p>
+					</div>
+					<div class="scroll-animation" style="transition-delay: 0.3s;">
+						<p class="text-4xl font-bold gradient-text">24/7</p>
+						<p class="text-slate-400 mt-2">surveillance des marchés</p>
+					</div>
+					<div class="scroll-animation col-span-2 md:col-span-1" style="transition-delay: 0.4s;">
+						<p class="text-4xl font-bold gradient-text counter" data-target="65">0</p>
+						<p class="text-slate-400 mt-2">plateformes de trading</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="features" class="py-20 bg-slate-900/50">
+			<div class="container mx-auto px-6">
+				<div class="text-center max-w-3xl mx-auto mb-12 scroll-animation">
+					<h2 class="text-3xl md:text-4xl font-bold text-white">Qezvoro Invest crée un environnement complet pour un investissement efficace</h2>
+					<p class="text-slate-300 mt-4">Notre plateforme technologique intègre des solutions financières traditionnelles et avancées dans un écosystème transparent où chaque action d'investissement est alimentée par une puissante IA.</p>
+				</div>
+				<div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+					<div class="card p-6 scroll-animation">
+						<h3 class="text-xl font-bold text-white mb-2">Système de trading multi-actifs</h3>
+						<p class="text-slate-400">Négociez des actions internationales, des monnaies numériques, des ETF et des matières premières via une interface unifiée.</p>
+					</div>
+					<div class="card p-6 scroll-animation" style="transition-delay: 0.1s;">
+						<h3 class="text-xl font-bold text-white mb-2">Analyse et prévisions intelligentes</h3>
+						<p class="text-slate-400">Recommandations de trading personnalisées générées par l'étude de données statistiques, de tendances techniques et du sentiment du marché.</p>
+					</div>
+					<div class="card p-6 scroll-animation" style="transition-delay: 0.2s;">
+						<h3 class="text-xl font-bold text-white mb-2">Exécution ultra-rapide des transactions</h3>
+						<p class="text-slate-400">Des connexions directes aux principales bourses internationales garantissent un traitement instantané des ordres sans dérapage.</p>
+					</div>
+					<div class="card p-6 scroll-animation" style="transition-delay: 0.3s;">
+						<h3 class="text-xl font-bold text-white mb-2">Interface conviviale</h3>
+						<p class="text-slate-400">Tableaux de bord personnalisables, analyses graphiques avancées et trading en un clic pour un contrôle total.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="py-20">
+			<div class="container mx-auto px-6">
+				<div class="text-center max-w-3xl mx-auto mb-12 scroll-animation">
+					<h2 class="text-3xl md:text-4xl font-bold text-white">Comment fonctionne notre <span class="gradient-text">moteur d'IA</span></h2>
+					<p class="text-slate-300 mt-4">Qezvoro AI est une suite d'algorithmes d'apprentissage automatique avancés qui traitent les informations de marché à une vitesse supérieure aux capacités humaines.</p>
+				</div>
+				<div class="grid md:grid-cols-3 gap-8">
+					<div class="card p-8 text-center scroll-animation">
+						<h3 class="text-2xl font-bold text-white mb-3">Modélisation prédictive</h3>
+						<p class="text-slate-400">Nos réseaux neuronaux traitent plus de 42 000 paramètres de marché, prédisant les fluctuations de prix avec une précision de 98 %.</p>
+					</div>
+					<div class="card p-8 text-center scroll-animation" style="transition-delay: 0.1s;">
+						<h3 class="text-2xl font-bold text-white mb-3">Gestion automatisée des risques</h3>
+						<p class="text-slate-400">L'IA détermine de manière autonome la taille optimale des positions et met en place des mécanismes de protection adaptatifs, excluant les facteurs émotionnels.</p>
+					</div>
+					<div class="card p-8 text-center scroll-animation" style="transition-delay: 0.2s;">
+						<h3 class="text-2xl font-bold text-white mb-3">Optimisation du portefeuille</h3>
+						<p class="text-slate-400">Des algorithmes surveillent en permanence et recommandent des ajustements de répartition d'actifs pour des rendements maximaux.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="py-20 bg-slate-900/50">
+			<div class="container mx-auto px-6">
+				<div class="text-center max-w-3xl mx-auto mb-12 scroll-animation">
+					<h2 class="text-3xl md:text-4xl font-bold text-white"></h2>
+					<p class="text-slate-300 mt-4"></p>
+				</div>
+				<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+					<div class="p-6 scroll-animation">
+						<h3 class="text-xl font-bold text-white mb-2"></h3>
+						<p class="text-slate-400"></p>
+					</div>
+					<div class="p-6 scroll-animation" style="transition-delay: 0.1s;">
+						<h3 class="text-xl font-bold text-white mb-2"></h3>
+						<p class="text-slate-400"></p>
+					</div>
+					<div class="p-6 scroll-animation" style="transition-delay: 0.2s;">
+						<h3 class="text-xl font-bold text-white mb-2"></h3>
+						<p class="text-slate-400"></p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="py-20">
+			<div class="container mx-auto px-6">
+				<div class="text-center max-w-3xl mx-auto mb-12 scroll-animation">
+					<h2 class="text-3xl md:text-4xl font-bold text-white">Nos partenaires technologiques</h2>
+					<p class="text-slate-300 mt-4">L'intégration avec les principales bourses, maisons de courtage et fournisseurs de données garantit des conditions de trading supérieures.</p>
+				</div>
+				<div class="flex flex-wrap justify-center items-center gap-12">
+					<div class="text-center text-gray-400 font-bold text-3xl opacity-70 scroll-animation">Binance</div>
+					<div class="text-center text-gray-400 font-bold text-3xl opacity-70 scroll-animation"
+						style="transition-delay: 0.1s;">Coinbase</div>
+					<div class="text-center text-gray-400 font-bold text-3xl opacity-70 scroll-animation"
+						style="transition-delay: 0.2s;">Kraken</div>
+					<div class="text-center text-gray-400 font-bold text-3xl opacity-70 scroll-animation"
+						style="transition-delay: 0.3s;">Bloomberg</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="reviews" class="py-20 bg-slate-900/50">
+			<div class="container mx-auto px-6">
+				<div class="text-center max-w-3xl mx-auto mb-12 scroll-animation">
+					<h2 class="text-3xl md:text-4xl font-bold text-white">Avis sur Qezvoro : <span class="gradient-text">Témoignages réels</span></h2>
+				</div>
+				<div class="relative max-w-3xl mx-auto">
+					<div id="testimonial-container" class="scroll-animation">
+						<div class="testimonial-slide card p-8 text-center active">
+							<p class="text-slate-300 text-lg italic">"En 18 mois, mon portefeuille a affiché une rentabilité de 94%, tandis que le CAC 40 n'affichait que 15%. Les recommandations de l'IA sont très efficaces."</p>
+							<p class="mt-4 font-bold text-white">Pierre Dubois, consultant financier, Paris</p>
+						</div>
+						<div class="testimonial-slide card p-8 text-center">
+							<p class="text-slate-300 text-lg italic">"Je suis totalement novice, mais grâce à l'assistant IA, j'ai déjà réalisé un bénéfice de 35 200€ en 22 mois. La gestion automatique des risques est une véritable bouée de sauvetage."</p>
+							<p class="mt-4 font-bold text-white">Sophie Martin, responsable marketing, Lyon</p>
+						</div>
+						<div class="testimonial-slide card p-8 text-center">
+							<p class="text-slate-300 text-lg italic">"Avec 52 ans d'expérience, je peux affirmer que les analyses de Qezvoro surpassent celles de Bloomberg. Ma rentabilité moyenne est passée de 31% à 96% par an."</p>
+							<p class="mt-4 font-bold text-white">Michel Lefebvre, gestionnaire de portefeuille, Marseille</p>
+						</div>
+					</div>
+					<button id="prev-testimonial"
+						class="absolute top-1/2 -translate-y-1/2 left-0 -translate-x-12 text-slate-500 hover:text-white">&lt;</button>
+					<button id="next-testimonial"
+						class="absolute top-1/2 -translate-y-1/2 right-0 translate-x-12 text-slate-500 hover:text-white">&gt;</button>
+				</div>
+				<p class="text-center mt-8 text-slate-500 scroll-animation">Au début, beaucoup doutaient de 'Qezvoro : arnaque ou légitime ?', mais les résultats pratiques et la transparence ont dissipé tous les doutes.</p>
+			</div>
+		</section>
+
+		<section class="py-20">
+			<div class="container mx-auto px-6">
+				<div class="text-center max-w-3xl mx-auto mb-12 scroll-animation">
+					<h2 class="text-3xl md:text-4xl font-bold text-white">Choisissez le plan tarifaire <span class="gradient-text">optimal</span></h2>
+				</div>
+				<div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+					<div class="card p-8 flex flex-col scroll-animation">
+						<h3 class="text-2xl font-bold text-white mb-2">Starter</h3>
+						<p class="text-4xl font-extrabold text-white mb-4">0 $<span
+								class="text-lg font-medium text-slate-400">/mois</span></p>
+						<ul class="space-y-3 text-slate-300 flex-grow mb-6">
+							<li>✓ Compte démo 2 000 000 $</li>
+							<li>✓ Signaux d'IA de base</li>
+							<li>✓ 10 actifs dans le portefeuille</li>
+							<li>✓ Assistance par e-mail</li>
+						</ul>
+						<a href="#register"
+							class="w-full text-center border border-sky-500 text-sky-500 font-bold p-3 rounded-md hover:bg-sky-500 hover:text-white transition">Choisir</a>
+					</div>
+					<div class="card p-8 flex flex-col scroll-animation border-2 border-sky-500"
+						style="transition-delay: 0.1s;">
+						<h3 class="text-2xl font-bold text-white mb-2">Professionnel</h3>
+						<p class="text-4xl font-extrabold text-white mb-4">129 $<span
+								class="text-lg font-medium text-slate-400">/mois</span></p>
+						<ul class="space-y-3 text-slate-300 flex-grow mb-6">
+							<li>✓ Toutes les fonctions "Démarreur"</li>
+							<li>✓ Signaux IA illimités</li>
+							<li>✓ Jusqu'à 2000 actifs</li>
+							<li>✓ Consultant en risques personnels</li>
+							<li>✓ Application mobile</li>
+						</ul>
+						<a href="#register"
+							class="w-full text-center cta-button text-white font-bold p-3 rounded-md">Choisir</a>
+					</div>
+					<div class="card p-8 flex flex-col scroll-animation" style="transition-delay: 0.2s;">
+						<h3 class="text-2xl font-bold text-white mb-2">Premium</h3>
+						<p class="text-4xl font-extrabold text-white mb-4">349 $<span
+								class="text-lg font-medium text-slate-400">/mois</span></p>
+						<ul class="space-y-3 text-slate-300 flex-grow mb-6">
+							<li>✓ Toutes les fonctions « Professionnel »</li>
+							<li>✓ Trading algorithmique</li>
+							<li>✓ Intégration d'API</li>
+							<li>✓ Gestionnaire dédié</li>
+							<li>✓ Service VIP</li>
+						</ul>
+						<a href="#register"
+							class="w-full text-center border border-sky-500 text-sky-500 font-bold p-3 rounded-md hover:bg-sky-500 hover:text-white transition">Choisir</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="faq" class="py-20 bg-slate-900/50">
+			<div class="container mx-auto px-6 max-w-3xl">
+				<div class="text-center mb-12 scroll-animation">
+					<h2 class="text-3xl md:text-4xl font-bold text-white">Questions fréquemment posées sur <span class="gradient-text">Qezvoro</span></h2>
+				</div>
+				<div class="space-y-4 scroll-animation">
+					<div class="accordion-item card">
+						<div class="accordion-header p-6 cursor-pointer flex justify-between items-center">
+							<h3 class="text-lg font-semibold text-white">Qu'est-ce que Qezvoro Invest ?</h3>
+							<span class="accordion-icon text-2xl text-sky-400 transition-transform">-</span>
+						</div>
+						<div class="accordion-content px-6">
+							<p class="pb-6 text-slate-300">Qezvoro Invest est un écosystème d'investissement avancé qui combine des instruments financiers classiques avec des cryptomonnaies dans un environnement unique piloté par l'IA, avec des signaux de trading précis à 98 %.</p>
+						</div>
+					</div>
+					<div class="accordion-item card">
+						<div class="accordion-header p-6 cursor-pointer flex justify-between items-center">
+							<h3 class="text-lg font-semibold text-white">Dans quelle mesure vos solutions d’IA sont-elles précises ?</h3>
+							<span class="accordion-icon text-2xl text-sky-400 transition-transform">+</span>
+						</div>
+						<div class="accordion-content px-6">
+							<p class="pb-6 text-slate-300">Notre IA est formée sur 50 ans d'historique de marché. Les signaux de trading Qezvoro ont affiché une précision de 98 %, dépassant la plupart des analystes institutionnels.</p>
+						</div>
+					</div>
+					<div class="accordion-item card">
+						<div class="accordion-header p-6 cursor-pointer flex justify-between items-center">
+							<h3 class="text-lg font-semibold text-white">Est-il sûr de confier des actifs à la plateforme ?</h3>
+							<span class="accordion-icon text-2xl text-sky-400 transition-transform">+</span>
+						</div>
+						<div class="accordion-content px-6">
+							<p class="pb-6 text-slate-300">La sécurité est notre priorité absolue. Nous sommes agréés dans 45 juridictions, les fonds des clients sont assurés jusqu'à 2 000 000 $, et les cryptoactifs sont stockés à froid.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="py-20">
+			<div class="container mx-auto px-6">
+				<div class="text-center max-w-3xl mx-auto mb-12 scroll-animation">
+					<h2 class="text-3xl md:text-4xl font-bold text-white">Lancez l'investissement dans l'IA en <span class="gradient-text">3 étapes faciles</span></h2>
+				</div>
+				<div class="grid md:grid-cols-3 gap-8 text-center">
+					<div class="scroll-animation">
+						<div class="text-4xl font-bold gradient-text mb-4">1</div>
+						<h3 class="text-xl font-bold text-white mb-2">Inscription rapide</h3>
+						<p class="text-slate-400">Saisissez votre adresse e-mail et votre numéro de téléphone et bénéficiez d'une vérification rapide.</p>
+					</div>
+					<div class="scroll-animation" style="transition-delay: 0.1s;">
+						<div class="text-4xl font-bold gradient-text mb-4">2</div>
+						<h3 class="text-xl font-bold text-white mb-2">Rechargez votre compte</h3>
+						<p class="text-slate-400">Cartes bancaires, virements, PayPal, cryptomonnaies. Dépôt minimum à partir de 15 $.</p>
+					</div>
+					<div class="scroll-animation" style="transition-delay: 0.2s;">
+						<div class="text-4xl font-bold gradient-text mb-4">3</div>
+						<h3 class="text-xl font-bold text-white mb-2">Lancer l'assistant IA</h3>
+						<p class="text-slate-400">Faites un test rapide pour déterminer votre profil d'investissement et commencez à trader.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="py-20 bg-slate-900/50">
+			<div class="container mx-auto px-6 text-center">
+				<div class="max-w-3xl mx-auto scroll-animation">
+					<h2 class="text-3xl md:text-5xl font-bold text-white">Rejoignez la <span class="gradient-text">révolution de l'IA</span> dans l'investissement</h2>
+					<p class="text-slate-300 mt-4 text-lg">Plus de 48 000 utilisateurs actifs utilisent déjà Qezvoro Invest pour générer des revenus stables. L'intelligence artificielle fonctionne 24 h/24 pour vous garantir de ne jamais manquer d'opportunités.</p>
+					<ul class="text-left my-8 inline-block space-y-2">
+						<li class="text-slate-300">✓ Inscription gratuite en 25 secondes</li>
+						<li class="text-slate-300">✓ Compte démo de 2 000 000 $</li>
+						<li class="text-slate-300">✓ 250 premiers jours de signaux IA gratuits</li>
+						<li class="text-slate-300">✓ Assistance 24h/24 et 7j/7</li>
+					</ul>
+					<div class="mt-4">
+						<a href="#register"
+							class="cta-button text-white font-bold px-8 py-4 rounded-lg text-lg">Commencez à investir dans l'IA dès maintenant</a>
+					</div>
+					<p class="mt-8 text-slate-500 italic">"Le meilleur moment pour investir, c'était hier. Le deuxième meilleur moment, c'est aujourd'hui."</p>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer class="border-t border-slate-800">
+		<div class="container mx-auto px-6 py-8 text-center text-slate-400">
+			<a href="index.html" class="text-2xl font-bold gradient-text">Qezvoro</a>
+			<div class="flex justify-center gap-6 my-6">
+				<a href="about.html" class="hover:text-sky-400">À propos</a>
+				<a href="reviews.html" class="hover:text-sky-400">Avis</a>
+				<a href="contacts.html" class="hover:text-sky-400">Contact</a>
+				<a href="policy.html" class="hover:text-sky-400">Confidentialité</a>
+			</div>
+			<p>© 2025 Qezvoro Invest. Tous droits réservés.</p>
+		</div>
+	</footer>
+
+	<script>
+		// ... ваш существующий JS без изменений ...
+		document.addEventListener('DOMContentLoaded', function () {
+			// Smooth Scroll, Scroll Animations, Counters, FAQ, Carousel...
+
+			// --- JS ДЛЯ НОВОГО DROPDOWN ---
+			const langSwitcher = document.getElementById('lang-switcher');
+			if (langSwitcher) {
+				const langSwitcherButton = document.getElementById('lang-switcher-button');
+				const langSwitcherMenu = document.getElementById('lang-switcher-menu');
+
+				langSwitcherButton.addEventListener('click', (event) => {
+					event.stopPropagation();
+					langSwitcherMenu.classList.toggle('hidden');
+				});
+
+				document.addEventListener('click', (event) => {
+					if (!langSwitcher.contains(event.target)) {
+						langSwitcherMenu.classList.add('hidden');
+					}
+				});
+			}
+		});
+	</script>
+
+	<script>
+		document.addEventListener('DOMContentLoaded', () => {
+			// Показать всё сразу, если не нужен «ленивый» эффект
+			// document.querySelectorAll('.scroll-animation').forEach(el => el.classList.add('visible'));
+
+			// Или вариант с IntersectionObserver (красивое появление при прокрутке)
+			if ('IntersectionObserver' in window) {
+				const io = new IntersectionObserver((entries) => {
+					entries.forEach(entry => {
+						if (entry.isIntersecting) {
+							entry.target.classList.add('visible');
+							io.unobserve(entry.target);
+						}
+					});
+				}, { threshold: 0.15 });
+
+				document.querySelectorAll('.scroll-animation').forEach(el => io.observe(el));
+			} else {
+				// Фоллбек
+				document.querySelectorAll('.scroll-animation').forEach(el => el.classList.add('visible'));
+			}
+		});
+	</script>
+
+</body>
+
+</html>

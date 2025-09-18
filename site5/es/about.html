@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acerca de Qezvoro Invest — Ecosistema revolucionario para inversiones inteligentes</title>
+    <meta name="description" content="Transformando el sector financiero a través de la inteligencia artificial. Conozca nuestra misión, visión y el equipo detrás de Qezvoro.">
+    
+   <link rel="canonical" href="https://your-domain.com/es/about.html">
+   <link rel="alternate" hreflang="ru" href="https://your-domain.com/ru/about.html">
+   <link rel="alternate" hreflang="en" href="https://your-domain.com/en/about.html">
+   <link rel="alternate" hreflang="es" href="https://your-domain.com/es/about.html">
+   <link rel="alternate" hreflang="de" href="https://your-domain.com/de/about.html">
+   <link rel="alternate" hreflang="fr" href="https://your-domain.com/fr/about.html">
+   <link rel="alternate" hreflang="it" href="https://your-domain.com/it/about.html">
+   <link rel="alternate" hreflang="ja" href="https://your-domain.com/ja/about.html">
+   <link rel="alternate" hreflang="ms" href="https://your-domain.com/ms/about.html">
+   <link rel="alternate" hreflang="pt" href="https://your-domain.com/pt/about.html">
+   <link rel="alternate" hreflang="cs" href="https://your-domain.com/cs/about.html">
+   <link rel="alternate" hreflang="x-default" href="https://your-domain.com/ru/about.html">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #030712; color: #d1d5db; }
+        .gradient-text { background: linear-gradient(90deg, #34d399, #22d3ee); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .cta-button { background-color: #10b981; transition: all .3s ease; box-shadow: 0 4px 20px rgba(16, 185, 129, 0.25); }
+        .cta-button:hover { transform: translateY(-3px); background-color: #059669; box-shadow: 0 7px 25px rgba(16, 185, 129, 0.35); }
+        .card { background-color: rgba(17, 24, 39, 0.8); border: 1px solid #374151; border-radius: 0.75rem; transition: all .3s ease; backdrop-filter: blur(10px); }
+        .card:hover { transform: translateY(-5px); border-color: #10b981; }
+        .scroll-animation { opacity: 0; transform: translateY(40px); transition: opacity .6s ease-out, transform .6s ease-out; }
+        .scroll-animation.visible { opacity: 1; transform: translateY(0); }
+        .timeline-item::before { content: ''; position: absolute; top: 1rem; left: -2.375rem; width: 1.25rem; height: 1.25rem; background-color: #10b981; border-radius: 9999px; border: 4px solid #030712; }
+    </style>
+</head>
+<body class="antialiased text-gray-300">
+
+    <header class="fixed top-0 left-0 right-0 z-50 bg-gray-950/80 backdrop-blur-lg border-b border-gray-800">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold gradient-text">Qezvoro Invest</a>
+            <nav class="hidden md:flex items-center space-x-8">
+               <a href="about.html" class="text-emerald-400 font-semibold">Acerca de</a>
+               <a href="reviews.html" class="text-gray-400 hover:text-emerald-400 transition-colors duration-300">Reseñas</a>
+               <a href="contacts.html" class="text-gray-400 hover:text-emerald-400 transition-colors duration-300">Contacto</a>
+               <a href="policy.html" class="text-gray-400 hover:text-emerald-400 transition-colors duration-300">Política</a>
+            </nav>
+            <div class="flex items-center space-x-4">
+                
+        <div class="relative" id="lang-switcher">
+            <button id="lang-switcher-button" class="flex items-center text-slate-300 hover:text-sky-400 transition">
+                <svg class="w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 21l5.25-11.25L21 21m-9-3h7.5M3 5.621a48.474 48.474 0 016-.371m0 0c1.12 0 2.233.038 3.334.114M9 5.25V3m3.334 2.364C11.176 10.658 7.69 15.08 3 17.502" /></svg>
+                <span class="uppercase">es</span>
+                <svg class="w-4 h-4 ml-1" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" /></svg>
+            </button>
+            <div id="lang-switcher-menu" class="absolute top-full right-0 mt-2 w-40 bg-slate-800 border border-slate-700 rounded-md shadow-lg hidden z-10">
+                <a href="../ru/about.html" class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700">Русский</a><a href="../en/about.html" class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700">English</a><a href="../de/about.html" class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700">Deutsch</a><a href="../fr/about.html" class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700">Français</a><a href="../it/about.html" class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700">Italiano</a><a href="../ja/about.html" class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700">日本語</a><a href="../ms/about.html" class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700">Bahasa Melayu</a><a href="../pt/about.html" class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700">Português</a><a href="../cs/about.html" class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700">Čeština</a>
+            </div>
+        </div>
+    
+                <a href="index.html#register" class="hidden sm:block cta-button text-white font-bold px-6 py-2.5 rounded-md">Empezar ahora</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="pt-20">
+        <section class="relative pt-24 pb-24 text-center overflow-hidden">
+            <div class="absolute inset-0 bg-grid-gray-800/20 [mask-image:radial-gradient(ellipse_at_center,white_5%,transparent_70%)]"></div>
+            <div class="container mx-auto px-6 relative">
+                <h1 class="text-4xl md:text-5xl font-extrabold text-white mb-4 scroll-animation"><span class="gradient-text">Qezvoro</span> — Plataforma de IA avanzada para inversiones inteligentes</h1>
+                <p class="max-w-3xl mx-auto text-xl text-cyan-400 mb-6 scroll-animation" style="transition-delay: 0.1s;">Transformando el sector financiero a través de la inteligencia artificial</p>
+                <p class="max-w-3xl mx-auto text-lg text-gray-400 scroll-animation" style="transition-delay: 0.2s;">Desarrollamos una generación innovadora de tecnología de inversión, donde algoritmos de IA brindan acceso a oportunidades de trading institucional para un público masivo. Desde 2022, nuestro equipo de profesionales crea soluciones algorítmicas avanzadas que han dado éxito a más de 48.000 usuarios activos.</p>
+            </div>
+        </section>
+
+        <section class="py-20">
+            <div class="container mx-auto px-6 max-w-4xl">
+                <div class="text-center mb-16 scroll-animation">
+                    <h2 class="text-3xl md:text-4xl font-bold text-white">Historia del desarrollo de Qezvoro</h2>
+                    <p class="text-lg text-gray-400 mt-4">Transformación de startup a líder en tecnología financiera.</p>
+                </div>
+                <div class="relative border-l-2 border-gray-700 ml-6">
+                    <div class="timeline-item mb-12 ml-12 pl-4 scroll-animation">
+                        <h3 class="text-2xl font-bold gradient-text">2022 — El comienzo de la revolución</h3>
+                        <p class="mt-2 text-gray-400">En el Centro de Innovación de Austin, un equipo de expertos de Tesla y Two Sigma integró IA y finanzas cuánticas. El algoritmo inicial demostró una precisión del 93%. Se recaudaron $45 millones en financiación inicial de Andreessen Horowitz.</p>
+                    </div>
+                    <div class="timeline-item mb-12 ml-12 pl-4 scroll-animation">
+                        <h3 class="text-2xl font-bold gradient-text">2023 — Crecimiento exponencial</h3>
+                        <p class="mt-2 text-gray-400">Lanzamiento público y crecimiento a 35,000 usuarios en un año. Apertura de la oficina asiática en Singapur. La precisión de la IA alcanzó el 96%. Se obtuvieron $95 millones en la Serie A de Tiger Global.</p>
+                    </div>
+                    <div class="timeline-item mb-12 ml-12 pl-4 scroll-animation">
+                        <h3 class="text-2xl font-bold gradient-text">2024 — Expansión internacional</h3>
+                        <p class="mt-2 text-gray-400">Presencia global en más de 156 países. Lanzamiento de la aplicación móvil con 8.2 millones de descargas. Premio Forbes "FinTech Breakthrough of the Year". La base de usuarios creció a más de 48,000.</p>
+                    </div>
+                    <div class="timeline-item ml-12 pl-4 scroll-animation">
+                        <h3 class="text-2xl font-bold gradient-text">2025 — Liderazgo en la industria</h3>
+                        <p class="mt-2 text-gray-400">Entre las 3 soluciones fintech más innovadoras del mundo, con más de 48,000 usuarios activos y más de $18.9 mil millones en capital gestionado. El sistema de IA logró una precisión del 98.5%.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-20 bg-gray-950">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-16 scroll-animation">
+                    <h2 class="text-3xl md:text-4xl font-bold text-white">Misión, visión y <span class="gradient-text">valores</span></h2>
+                </div>
+                <div class="grid lg:grid-cols-2 gap-12 items-center mb-12">
+                    <div class="scroll-animation">
+                        <h3 class="text-3xl font-bold text-white mb-4">Nuestra misión</h3>
+                        <p class="text-lg text-gray-400">Democratizar el acceso a soluciones de inversión de vanguardia mediante la implementación de tecnologías de IA de última generación. Creamos un ecosistema donde la independencia financiera está al alcance de todos.</p>
+                    </div>
+                    <div class="scroll-animation" style="transition-delay: 0.1s;">
+                        <h3 class="text-3xl font-bold text-white mb-4">Visión estratégica</h3>
+                        <p class="text-lg text-gray-400">Convertirnos en la plataforma internacional líder en inversión impulsada por IA, donde millones de participantes logren su prosperidad financiera mediante soluciones tecnológicas avanzadas.</p>
+                    </div>
+                </div>
+                <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <div class="card p-6 scroll-animation"><h4 class="font-bold text-white text-lg mb-2">Liderazgo</h4><p class="text-gray-400 text-sm">Innovación y I+D</p></div>
+                    <div class="card p-6 scroll-animation" style="transition-delay: 0.1s;"><h4 class="font-bold text-white text-lg mb-2">Transparencia</h4><p class="text-gray-400 text-sm">Apertura y auditorías</p></div>
+                    <div class="card p-6 scroll-animation" style="transition-delay: 0.2s;"><h4 class="font-bold text-white text-lg mb-2">Clientes</h4><p class="text-gray-400 text-sm">Enfoque 24/7</p></div>
+                    <div class="card p-6 scroll-animation" style="transition-delay: 0.3s;"><h4 class="font-bold text-white text-lg mb-2">Seguridad</h4><p class="text-gray-400 text-sm">Estándares bancarios</p></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-20">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-16 scroll-animation">
+                    <h2 class="text-3xl md:text-4xl font-bold text-white">Un equipo de expertos de <span class="gradient-text">nivel internacional</span></h2>
+                </div>
+                <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto mb-12">
+                    <div class="card p-8 text-center scroll-animation">
+                        <img src="https://placehold.co/120x120/030712/34d399" class="rounded-full mx-auto mb-4 border-2 border-emerald-400" alt="Michael Zhang">
+                        <h3 class="text-xl font-bold text-white">Michael Zhang</h3>
+                        <p class="gradient-text font-semibold mb-3">Director ejecutivo y fundador</p>
+                        <p class="text-gray-400 italic">""Estoy convencido de que la IA puede transformar radicalmente el enfoque de las decisiones de inversión. Nuestra tarea es transformar algoritmos complejos en herramientas comprensibles.""</p>
+                    </div>
+                    <div class="card p-8 text-center scroll-animation" style="transition-delay: 0.1s;">
+                        <img src="https://placehold.co/120x120/030712/22d3ee" class="rounded-full mx-auto mb-4 border-2 border-cyan-400" alt="Dra. Sarah Thompson">
+                        <h3 class="text-xl font-bold text-white">Dra. Sarah Thompson</h3>
+                        <p class="gradient-text font-semibold mb-3">Directora técnica y cofundadora</p>
+                        <p class="text-gray-400 italic">""Los mercados financieros son flujos masivos de información que solo pueden analizarse mediante IA. Creamos algoritmos capaces de detectar patrones ocultos inaccesibles al análisis humano.""</p>
+                    </div>
+                </div>
+                <div class="max-w-4xl mx-auto text-center text-lg text-gray-400 scroll-animation">
+                    <p>Nuestro equipo está formado por <span class="font-bold text-white">89 ingenieros de ML</span> de Tesla y OpenAI, <span class="font-bold text-white">54 analistas financieros</span> de Citadel y Bridgewater, y <span class="font-bold text-white">47 expertos</span> en ciberseguridad.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="py-20 bg-gray-950">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-16 scroll-animation">
+                    <h2 class="text-3xl md:text-4xl font-bold text-white">Licencias y <span class="gradient-text">cumplimiento normativo</span></h2>
+                    <p class="text-lg text-gray-400 mt-4">Qezvoro Invest opera en estricto cumplimiento de los estándares financieros internacionales, con licencias en 45 jurisdicciones clave.</p>
+                </div>
+                <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6 max-w-6xl mx-auto">
+                    <div class="card p-6 text-center scroll-animation"><p class="font-bold text-white">EE.UU - CFTC</p></div>
+                    <div class="card p-6 text-center scroll-animation" style="transition-delay: 0.1s;"><p class="font-bold text-white">Gran Bretaña - FCA</p></div>
+                    <div class="card p-6 text-center scroll-animation" style="transition-delay: 0.2s;"><p class="font-bold text-white">UE - ESMA</p></div>
+                    <div class="card p-6 text-center scroll-animation" style="transition-delay: 0.3s;"><p class="font-bold text-white">Australia - ASIC</p></div>
+                    <div class="card p-6 text-center scroll-animation" style="transition-delay: 0.4s;"><p class="font-bold text-white">Canadá - IIROC</p></div>
+                    <div class="card p-6 text-center scroll-animation" style="transition-delay: 0.5s;"><p class="font-bold text-white">MAS</p></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-24">
+            <div class="container mx-auto px-6 text-center">
+                <div class="max-w-3xl mx-auto scroll-animation">
+                    <h2 class="text-3xl md:text-4xl font-bold text-white">Únete a la <span class="gradient-text">revolución financiera Qezvoro</span></h2>
+                    <p class="text-gray-400 mt-5 text-lg">Nuestra historia está cobrando impulso. Únete a una comunidad global de personas que ya están forjando su futuro financiero con la ayuda de la inteligencia artificial.</p>
+                    <div class="mt-10">
+                        <a href="index.html#register" class="cta-button text-white font-bold px-8 py-4 rounded-lg text-xl">Únase a Qezvoro Trading</a>
+                    </div>
+                    <div class="mt-12 text-gray-500">
+                        <p>Contactos: <a href="mailto:partnerships@qezvoro.com" class="text-emerald-400 hover:underline">partnerships@qezvoro.com</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-950 border-t border-gray-800">
+        <div class="container mx-auto px-6 py-8 text-center text-gray-500">
+            <a href="index.html" class="text-3xl font-bold gradient-text">Qezvoro Invest</a>
+            <div class="flex justify-center gap-6 my-6">
+               <a href="about.html" class="hover:text-emerald-400 transition">Acerca de</a>
+               <a href="reviews.html" class="hover:text-emerald-400 transition">Reseñas</a>
+               <a href="contacts.html" class="hover:text-emerald-400 transition">Contacto</a>
+               <a href="policy.html" class="hover:text-emerald-400 transition">Política</a>
+            </div>
+            <p class="text-sm">© 2025 Qezvoro Invest. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    
+    <script>
+    document.addEventListener('DOMContentLoaded', () => {
+        // --- НАЧАЛО: КОД ДЛЯ ДРОПДАУНА (ДОБАВИТЬ) ---
+        const langSwitcher = document.getElementById('lang-switcher');
+        if (langSwitcher) {
+            const langSwitcherButton = document.getElementById('lang-switcher-button');
+            const langSwitcherMenu = document.getElementById('lang-switcher-menu');
+
+            langSwitcherButton.addEventListener('click', (event) => {
+                event.stopPropagation(); // Остановить всплытие, чтобы клик не закрыл меню сразу
+                langSwitcherMenu.classList.toggle('hidden');
+            });
+
+            // Закрывать меню при клике вне его области
+            document.addEventListener('click', (event) => {
+                if (langSwitcherMenu && !langSwitcher.contains(event.target)) {
+                    langSwitcherMenu.classList.add('hidden');
+                }
+            });
+        }
+        // --- КОНЕЦ: КОД ДЛЯ ДРОПДАУНА ---
+
+
+        // Scroll Animations (этот код у вас уже есть)
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.1 });
+        document.querySelectorAll('.scroll-animation').forEach(el => observer.observe(el));
+        
+        // Animated Counters (этот код тоже может быть на некоторых страницах)
+        const counterObserver = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => { if (entry.isIntersecting) { const counter = entry.target; const target = +counter.getAttribute('data-target'); const isDecimal = counter.getAttribute('data-decimal'); const duration = 2000; let startTime = null; const step = (timestamp) => { if (!startTime) startTime = timestamp; const progress = Math.min((timestamp - startTime) / duration, 1); let currentValue = progress * target; if (isDecimal) { counter.innerText = currentValue.toFixed(parseInt(isDecimal)); } else { counter.innerText = Math.floor(currentValue).toLocaleString('en-US'); } if (progress < 1) { requestAnimationFrame(step); } else { if (isDecimal) { counter.innerText = target.toFixed(parseInt(isDecimal)); } else { counter.innerText = target.toLocaleString('en-US'); } } }; requestAnimationFrame(step); observer.unobserve(counter); } });
+        }, { threshold: 0.5 });
+        document.querySelectorAll('.counter').forEach(counter => counterObserver.observe(counter));
+    });
+</script>
+</body>
+</html>

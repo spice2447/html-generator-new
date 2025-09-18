@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Qezvoro Invest — Новаторская торговая экосистема</title>
+	<meta name="description" content="Раскройте потенциал своего инвестиционного портфеля с помощью прорывных технологий искусственного интеллекта Qezvoro. Торговля криптовалютами, акциями, и другими активами.">
+
+	
+   <link rel="canonical" href="https://your-domain.com/ru/index.html">
+   <link rel="alternate" hreflang="ru" href="https://your-domain.com/ru/index.html">
+   <link rel="alternate" hreflang="en" href="https://your-domain.com/en/index.html">
+   <link rel="alternate" hreflang="es" href="https://your-domain.com/es/index.html">
+   <link rel="alternate" hreflang="de" href="https://your-domain.com/de/index.html">
+   <link rel="alternate" hreflang="fr" href="https://your-domain.com/fr/index.html">
+   <link rel="alternate" hreflang="it" href="https://your-domain.com/it/index.html">
+   <link rel="alternate" hreflang="ja" href="https://your-domain.com/ja/index.html">
+   <link rel="alternate" hreflang="ms" href="https://your-domain.com/ms/index.html">
+   <link rel="alternate" hreflang="pt" href="https://your-domain.com/pt/index.html">
+   <link rel="alternate" hreflang="cs" href="https://your-domain.com/cs/index.html">
+   <link rel="alternate" hreflang="x-default" href="https://your-domain.com/ru/index.html">
+
+
+	<script src="https://cdn.tailwindcss.com"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+	<style>
+		body {
+			font-family: 'Inter', sans-serif;
+			background-color: #0a0a0a;
+			color: #e2e8f0
+		}
+
+		.gradient-text {
+			background: linear-gradient(90deg, #38bdf8, #818cf8);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent
+		}
+
+		.cta-button {
+			background: linear-gradient(90deg, #38bdf8, #818cf8);
+			transition: all .3s ease;
+			box-shadow: 0 4px 15px rgba(56, 189, 248, .2)
+		}
+
+		.cta-button:hover {
+			transform: translateY(-2px);
+			box-shadow: 0 6px 20px rgba(56, 189, 248, .3)
+		}
+
+		.card {
+			background-color: rgba(30, 41, 59, .5);
+			border: 1px solid rgba(51, 65, 85, .7);
+			backdrop-filter: blur(10px);
+			-webkit-backdrop-filter: blur(10px);
+			border-radius: 1rem;
+			transition: all .3s ease
+		}
+
+		.card:hover {
+			border-color: #38bdf8;
+			transform: translateY(-5px)
+		}
+
+		.form-input {
+			background-color: #1e293b;
+			border: 1px solid #334155;
+			color: #e2e8f0
+		}
+
+		.form-input:focus {
+			outline: 0;
+			border-color: #38bdf8;
+			box-shadow: 0 0 0 2px rgba(56, 189, 248, .5)
+		}
+
+		.scroll-animation {
+			opacity: 0;
+			transform: translateY(30px);
+			transition: opacity .6s ease-out, transform .6s ease-out
+		}
+
+		.scroll-animation.visible {
+			opacity: 1;
+			transform: translateY(0)
+		}
+
+		.accordion-item .accordion-content {
+			max-height: 0;
+			overflow: hidden;
+			transition: max-height .5s ease-in-out
+		}
+
+		.accordion-item.active .accordion-content {
+			max-height: 500px
+		}
+
+		.accordion-item.active .accordion-icon {
+			transform: rotate(180deg)
+		}
+
+		.testimonial-slide {
+			display: none
+		}
+
+		.testimonial-slide.active {
+			display: block
+		}
+	</style>
+</head>
+
+<body class="antialiased">
+
+	<header class="fixed top-0 left-0 right-0 z-50 bg-opacity-80 backdrop-blur-md border-b border-slate-800">
+		<div class="container mx-auto px-6 py-4 flex justify-between items-center">
+			<a href="index.html" class="text-2xl font-bold gradient-text">Qezvoro</a>
+			<div class="flex items-center space-x-4 md:space-x-6">
+				<nav class="hidden md:flex items-center space-x-6">
+					<a href="about.html" class="text-slate-300 hover:text-sky-400 transition">О нас</a>
+					<a href="reviews.html" class="text-slate-300 hover:text-sky-400 transition">Отзывы</a>
+					<a href="contacts.html" class="text-slate-300 hover:text-sky-400 transition">Контакты</a>
+				</nav>
+				
+        <div class="relative" id="lang-switcher">
+            <button id="lang-switcher-button" class="flex items-center text-slate-300 hover:text-sky-400 transition">
+                <svg class="w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 21l5.25-11.25L21 21m-9-3h7.5M3 5.621a48.474 48.474 0 016-.371m0 0c1.12 0 2.233.038 3.334.114M9 5.25V3m3.334 2.364C11.176 10.658 7.69 15.08 3 17.502" /></svg>
+                <span class="uppercase">ru</span>
+                <svg class="w-4 h-4 ml-1" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" /></svg>
+            </button>
+            <div id="lang-switcher-menu" class="absolute top-full right-0 mt-2 w-40 bg-slate-800 border border-slate-700 rounded-md shadow-lg hidden z-10">
+                <a href="../en/index.html" class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700">English</a><a href="../es/index.html" class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700">Español</a><a href="../de/index.html" class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700">Deutsch</a><a href="../fr/index.html" class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700">Français</a><a href="../it/index.html" class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700">Italiano</a><a href="../ja/index.html" class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700">日本語</a><a href="../ms/index.html" class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700">Bahasa Melayu</a><a href="../pt/index.html" class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700">Português</a><a href="../cs/index.html" class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700">Čeština</a>
+            </div>
+        </div>
+    
+				<a href="#register"
+					class="hidden sm:block cta-button text-white font-semibold px-5 py-2 rounded-lg">Начать сейчас</a>
+			</div>
+		</div>
+	</header>
+
+	<main>
+		<section class="pt-32 pb-20 relative overflow-hidden">
+			<div
+				class="absolute top-0 left-0 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-sky-500/20 rounded-full blur-3xl -z-10">
+			</div>
+			<div
+				class="absolute bottom-0 right-0 translate-x-1/2 translate-y-1/2 w-96 h-96 bg-indigo-500/20 rounded-full blur-3xl -z-10">
+			</div>
+			<div class="container mx-auto px-6 text-center">
+				<h1 class="text-4xl md:text-6xl font-extrabold text-white leading-tight mb-4 scroll-animation">
+					<span class="gradient-text">Qezvoro Invest</span> — Новаторская торговая экосистема нового поколения</h1>
+				<p class="max-w-3xl mx-auto text-slate-300 text-lg mb-6 scroll-animation" style="transition-delay: 0.1s;">
+					Раскройте безграничный потенциал своего инвестиционного портфеля с помощью прорывных технологий искусственного интеллекта. Qezvoro trading предоставляет комплексный доступ к торговле криптовалютами, международными акциями, инвестиционными фондами и товарными рынками через наши передовые алгоритмы машинного обучения.</p>
+				<p class="max-w-3xl mx-auto text-slate-400 text-lg mb-8 scroll-animation" style="transition-delay: 0.2s;">
+					Qezvoro platform осуществляет беспрерывный анализ масштабных данных: от микроскопических изменений котировок до углубленного исследования общественных настроений, от корпоративных балансов до международных экономических тенденций. Получайте профессиональные консультации, максимально автоматизируйте торговые процессы и принимайте обоснованные решения благодаря технологиям будущего.</p>
+				<div class="flex justify-center items-center gap-4 scroll-animation" style="transition-delay: 0.3s;">
+					<a href="#register" class="cta-button text-white font-bold px-8 py-4 rounded-lg text-lg">Активировать ИИ-аналитику</a>
+				</div>
+				<p class="mt-4 text-sm text-slate-500 scroll-animation" style="transition-delay: 0.4s;">Бесплатная активация • Тестовый аккаунт • Без финансовых обязательств
+				</p>
+			</div>
+		</section>
+
+		<section id="register" class="py-20 bg-slate-900/50">
+			<div class="container mx-auto px-6">
+				<div class="max-w-4xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+					<div class="text-center md:text-left scroll-animation">
+						<h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Активируйте ИИ-торговлю за <span class="gradient-text">45 секунд</span></h2>
+						<p class="text-slate-300 text-lg">Уже 48 000+ активных пользователей полагаются на наши алгоритмы.</p>
+					</div>
+					<div class="card p-8 scroll-animation" style="transition-delay: 0.1s;">
+						<form>
+							<div class="space-y-4">
+								<input type="text" placeholder="Полное имя"
+									class="w-full p-3 rounded-md form-input">
+								<input type="email" placeholder="Email-адрес"
+									class="w-full p-3 rounded-md form-input">
+								<input type="tel" placeholder="Контактный телефон"
+									class="w-full p-3 rounded-md form-input">
+								<select class="w-full p-3 rounded-md form-input">
+									<option>Торговый опыт</option>
+									<option>Новичок</option>
+									<option>Средний</option>
+									<option>Эксперт</option>
+								</select>
+								<button type="submit"
+									class="w-full cta-button text-white font-bold p-3 rounded-md text-lg">Активировать ИИ-аналитику</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="py-20">
+			<div class="container mx-auto px-6 text-center">
+				<div class="grid grid-cols-2 md:grid-cols-5 gap-8">
+					<div class="scroll-animation">
+						<p class="text-4xl font-bold gradient-text counter" data-target="48000">0</p>
+						<p class="text-slate-400 mt-2">активных пользователей</p>
+					</div>
+					<div class="scroll-animation" style="transition-delay: 0.1s;">
+						<p class="text-4xl font-bold gradient-text"><span class="counter" data-target="12.8">0</span>B+</p>
+						<p class="text-slate-400 mt-2">общий торговый объем</p>
+					</div>
+					<div class="scroll-animation" style="transition-delay: 0.2s;">
+						<p class="text-4xl font-bold gradient-text"><span class="counter" data-target="98">0</span>%</p>
+						<p class="text-slate-400 mt-2">точность ИИ-прогнозов</p>
+					</div>
+					<div class="scroll-animation" style="transition-delay: 0.3s;">
+						<p class="text-4xl font-bold gradient-text">24/7</p>
+						<p class="text-slate-400 mt-2">мониторинг рынков</p>
+					</div>
+					<div class="scroll-animation col-span-2 md:col-span-1" style="transition-delay: 0.4s;">
+						<p class="text-4xl font-bold gradient-text counter" data-target="65">0</p>
+						<p class="text-slate-400 mt-2">торговых площадок</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="features" class="py-20 bg-slate-900/50">
+			<div class="container mx-auto px-6">
+				<div class="text-center max-w-3xl mx-auto mb-12 scroll-animation">
+					<h2 class="text-3xl md:text-4xl font-bold text-white">Qezvoro Invest формирует всеобъемлющую среду для эффективного инвестирования</h2>
+					<p class="text-slate-300 mt-4">Наша технологическая платформа интегрирует традиционные и передовые финансовые решения в целостную экосистему, где каждое инвестиционное действие основано на мощных ИИ-вычислениях и глубокой аналитике.</p>
+				</div>
+				<div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+					<div class="card p-6 scroll-animation">
+						<h3 class="text-xl font-bold text-white mb-2">Многоактивная торговая система</h3>
+						<p class="text-slate-400">Операции с акциями, криптовалютами, ETF и сырьем через унифицированный интерфейс.</p>
+					</div>
+					<div class="card p-6 scroll-animation" style="transition-delay: 0.1s;">
+						<h3 class="text-xl font-bold text-white mb-2">Интеллектуальная аналитика</h3>
+						<p class="text-slate-400">Персонализированные торговые рекомендации на основе глубокого анализа данных.</p>
+					</div>
+					<div class="card p-6 scroll-animation" style="transition-delay: 0.2s;">
+						<h3 class="text-xl font-bold text-white mb-2">Сверхбыстрое исполнение</h3>
+						<p class="text-slate-400">Прямые подключения к биржам для мгновенной обработки ордеров без проскальзывания.</p>
+					</div>
+					<div class="card p-6 scroll-animation" style="transition-delay: 0.3s;">
+						<h3 class="text-xl font-bold text-white mb-2">Дружественный интерфейс</h3>
+						<p class="text-slate-400">Кастомизируемые панели, мобильное приложение и торговля в один клик для полного контроля.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="py-20">
+			<div class="container mx-auto px-6">
+				<div class="text-center max-w-3xl mx-auto mb-12 scroll-animation">
+					<h2 class="text-3xl md:text-4xl font-bold text-white">Принципы работы нашего <span class="gradient-text">ИИ-движка</span></h2>
+					<p class="text-slate-300 mt-4">Qezvoro AI представляет комплекс современных алгоритмов машинного обучения, обрабатывающих рыночную информацию со скоростью, превышающей человеческие возможности.</p>
+				</div>
+				<div class="grid md:grid-cols-3 gap-8">
+					<div class="card p-8 text-center scroll-animation">
+						<h3 class="text-2xl font-bold text-white mb-3">Предсказательное моделирование</h3>
+						<p class="text-slate-400">Нейронные сети обрабатывают 42 000+ параметров, предсказывая движения цен с точностью 98%.</p>
+					</div>
+					<div class="card p-8 text-center scroll-animation" style="transition-delay: 0.1s;">
+						<h3 class="text-2xl font-bold text-white mb-3">Автоматизированное управление рисками</h3>
+						<p class="text-slate-400">ИИ определяет размеры позиций и устанавливает адаптивные защитные механизмы, исключая эмоции.</p>
+					</div>
+					<div class="card p-8 text-center scroll-animation" style="transition-delay: 0.2s;">
+						<h3 class="text-2xl font-bold text-white mb-3">Оптимизация портфеля</h3>
+						<p class="text-slate-400">Алгоритмы непрерывно отслеживают и рекомендуют корректировки для максимальной доходности.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="py-20 bg-slate-900/50">
+			<div class="container mx-auto px-6">
+				<div class="text-center max-w-3xl mx-auto mb-12 scroll-animation">
+					<h2 class="text-3xl md:text-4xl font-bold text-white">Почему <span class="gradient-text">48 000+</span> выбирают Qezvoro?</h2>
+					<p class="text-slate-300 mt-4">Мы предоставляем не просто доступ к рынкам — мы создаем индивидуальные конкурентные преимущества для каждого клиента.</p>
+				</div>
+				<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+					<div class="p-6 scroll-animation">
+						<h3 class="text-xl font-bold text-white mb-2">Инновационные ИИ-решения</h3>
+						<p class="text-slate-400">Уникальные алгоритмы от специалистов Goldman Sachs, Google DeepMind и Microsoft AI.</p>
+					</div>
+					<div class="p-6 scroll-animation" style="transition-delay: 0.1s;">
+						<h3 class="text-xl font-bold text-white mb-2">Глобальная диверсификация</h3>
+						<p class="text-slate-400">Прямой доступ к 65+ крупнейшим мировым биржам через единую платформу.</p>
+					</div>
+					<div class="p-6 scroll-animation" style="transition-delay: 0.2s;">
+						<h3 class="text-xl font-bold text-white mb-2">Институциональный риск-менеджмент</h3>
+						<p class="text-slate-400">Многоуровневая система защиты, включая страхование вкладов до $2,000,000.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="py-20">
+			<div class="container mx-auto px-6">
+				<div class="text-center max-w-3xl mx-auto mb-12 scroll-animation">
+					<h2 class="text-3xl md:text-4xl font-bold text-white">Наши технологические партнеры</h2>
+					<p class="text-slate-300 mt-4">Интеграция с топовыми биржами, брокерами и поставщиками данных гарантирует превосходные торговые условия.</p>
+				</div>
+				<div class="flex flex-wrap justify-center items-center gap-12">
+					<div class="text-center text-gray-400 font-bold text-3xl opacity-70 scroll-animation">Binance</div>
+					<div class="text-center text-gray-400 font-bold text-3xl opacity-70 scroll-animation"
+						style="transition-delay: 0.1s;">Coinbase</div>
+					<div class="text-center text-gray-400 font-bold text-3xl opacity-70 scroll-animation"
+						style="transition-delay: 0.2s;">Kraken</div>
+					<div class="text-center text-gray-400 font-bold text-3xl opacity-70 scroll-animation"
+						style="transition-delay: 0.3s;">Bloomberg</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="reviews" class="py-20 bg-slate-900/50">
+			<div class="container mx-auto px-6">
+				<div class="text-center max-w-3xl mx-auto mb-12 scroll-animation">
+					<h2 class="text-3xl md:text-4xl font-bold text-white">Qezvoro Reviews: <span class="gradient-text">Реальный опыт</span></h2>
+				</div>
+				<div class="relative max-w-3xl mx-auto">
+					<div id="testimonial-container" class="scroll-animation">
+						<div class="testimonial-slide card p-8 text-center active">
+							<p class="text-slate-300 text-lg italic">"За 18 месяцев с Qezvoro мой портфель показал 94% доходности, в то время как S&P 500 — лишь 15%. ИИ-рекомендации действительно эффективны."</p>
+							<p class="mt-4 font-bold text-white">Максим С., финансовый консультант</p>
+						</div>
+						<div class="testimonial-slide card p-8 text-center">
+							<p class="text-slate-300 text-lg italic">"Полный новичок, но благодаря ИИ-помощнику уже получил прибыль $35 200 за 22 месяца. Автоматическое управление рисками — это спасение."</p>
+							<p class="mt-4 font-bold text-white">Ольга Р., маркетолог</p>
+						</div>
+						<div class="testimonial-slide card p-8 text-center">
+							<p class="text-slate-300 text-lg italic">"С 52-летним опытом могу заявить: аналитика Qezvoro превосходит Bloomberg по скорости. Моя средняя доходность выросла с 31% до 96% в год."</p>
+							<p class="mt-4 font-bold text-white">Игорь Д., управляющий портфелями</p>
+						</div>
+					</div>
+					<button id="prev-testimonial"
+						class="absolute top-1/2 -translate-y-1/2 left-0 -translate-x-12 text-slate-500 hover:text-white">&lt;</button>
+					<button id="next-testimonial"
+						class="absolute top-1/2 -translate-y-1/2 right-0 translate-x-12 text-slate-500 hover:text-white">&gt;</button>
+				</div>
+				<p class="text-center mt-8 text-slate-500 scroll-animation">Многие сомневались «Qezvoro Scam или нет?», но результаты и прозрачность развеяли все вопросы.</p>
+			</div>
+		</section>
+
+		<section class="py-20">
+			<div class="container mx-auto px-6">
+				<div class="text-center max-w-3xl mx-auto mb-12 scroll-animation">
+					<h2 class="text-3xl md:text-4xl font-bold text-white">Выберите оптимальный <span class="gradient-text">тарифный план</span></h2>
+				</div>
+				<div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+					<div class="card p-8 flex flex-col scroll-animation">
+						<h3 class="text-2xl font-bold text-white mb-2">Стартовый</h3>
+						<p class="text-4xl font-extrabold text-white mb-4">$0<span
+								class="text-lg font-medium text-slate-400">/месяц</span></p>
+						<ul class="space-y-3 text-slate-300 flex-grow mb-6">
+							<li>✓ Демо-счет $2,000,000</li>
+							<li>✓ Базовые ИИ-сигналы</li>
+							<li>✓ 10 активов в портфеле</li>
+							<li>✓ Email-поддержка</li>
+						</ul>
+						<a href="#register"
+							class="w-full text-center border border-sky-500 text-sky-500 font-bold p-3 rounded-md hover:bg-sky-500 hover:text-white transition">Выбрать</a>
+					</div>
+					<div class="card p-8 flex flex-col scroll-animation border-2 border-sky-500"
+						style="transition-delay: 0.1s;">
+						<h3 class="text-2xl font-bold text-white mb-2">Профессиональный</h3>
+						<p class="text-4xl font-extrabold text-white mb-4">$129<span
+								class="text-lg font-medium text-slate-400">/месяц</span></p>
+						<ul class="space-y-3 text-slate-300 flex-grow mb-6">
+							<li>✓ Все функции «Стартовый»</li>
+							<li>✓ Неограниченные ИИ-сигналы</li>
+							<li>✓ До 2000 активов</li>
+							<li>✓ Персональный риск-консультант</li>
+							<li>✓ Мобильное приложение</li>
+						</ul>
+						<a href="#register"
+							class="w-full text-center cta-button text-white font-bold p-3 rounded-md">Выбрать</a>
+					</div>
+					<div class="card p-8 flex flex-col scroll-animation" style="transition-delay: 0.2s;">
+						<h3 class="text-2xl font-bold text-white mb-2">Премиум</h3>
+						<p class="text-4xl font-extrabold text-white mb-4">$349<span
+								class="text-lg font-medium text-slate-400">/месяц</span></p>
+						<ul class="space-y-3 text-slate-300 flex-grow mb-6">
+							<li>✓ Все функции «Профессиональный»</li>
+							<li>✓ Алгоритмическая торговля</li>
+							<li>✓ API-интеграция</li>
+							<li>✓ Выделенный менеджер</li>
+							<li>✓ VIP-обслуживание</li>
+						</ul>
+						<a href="#register"
+							class="w-full text-center border border-sky-500 text-sky-500 font-bold p-3 rounded-md hover:bg-sky-500 hover:text-white transition">Выбрать</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="faq" class="py-20 bg-slate-900/50">
+			<div class="container mx-auto px-6 max-w-3xl">
+				<div class="text-center mb-12 scroll-animation">
+					<h2 class="text-3xl md:text-4xl font-bold text-white">Частые вопросы о <span class="gradient-text">Qezvoro</span></h2>
+				</div>
+				<div class="space-y-4 scroll-animation">
+					<div class="accordion-item card">
+						<div class="accordion-header p-6 cursor-pointer flex justify-between items-center">
+							<h3 class="text-lg font-semibold text-white">Что представляет собой Qezvoro Invest?</h3>
+							<span class="accordion-icon text-2xl text-sky-400 transition-transform">-</span>
+						</div>
+						<div class="accordion-content px-6">
+							<p class="pb-6 text-slate-300">Qezvoro Invest — передовая инвестиционная экосистема, объединяющая классические финансовые инструменты с криптовалютами в единой ИИ-управляемой среде. Наше преимущество — собственные алгоритмы машинного обучения, генерирующие сигналы с точностью 98%.</p>
+						</div>
+					</div>
+					<div class="accordion-item card">
+						<div class="accordion-header p-6 cursor-pointer flex justify-between items-center">
+							<h3 class="text-lg font-semibold text-white">Насколько точны ваши ИИ-решения?</h3>
+							<span class="accordion-icon text-2xl text-sky-400 transition-transform">+</span>
+						</div>
+						<div class="accordion-content px-6">
+							<p class="pb-6 text-slate-300">Наш ИИ построен на глубоких нейронных сетях, тренированных на 50-летней истории всех основных рынков. За весь период работы торговые сигналы Qezvoro показали точность 98%, что превосходит показатели большинства институциональных аналитиков.</p>
+						</div>
+					</div>
+					<div class="accordion-item card">
+						<div class="accordion-header p-6 cursor-pointer flex justify-between items-center">
+							<h3 class="text-lg font-semibold text-white">Насколько безопасно доверять активы платформе?</h3>
+							<span class="accordion-icon text-2xl text-sky-400 transition-transform">+</span>
+						</div>
+						<div class="accordion-content px-6">
+							<p class="pb-6 text-slate-300">Безопасность — наш основной приоритет. Мы лицензированы регуляторами 45 юрисдикций, включая SEC и FCA. Клиентские средства застрахованы до $2,000,000, а криптоактивы хранятся в холодных хранилищах. Аудит безопасности PwC проводится каждые 15 дней.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="py-20">
+			<div class="container mx-auto px-6">
+				<div class="text-center max-w-3xl mx-auto mb-12 scroll-animation">
+					<h2 class="text-3xl md:text-4xl font-bold text-white">Запустите ИИ-инвестирование за <span class="gradient-text">3 легких шага</span></h2>
+				</div>
+				<div class="grid md:grid-cols-3 gap-8 text-center">
+					<div class="scroll-animation">
+						<div class="text-4xl font-bold gradient-text mb-4">1</div>
+						<h3 class="text-xl font-bold text-white mb-2">Быстрая регистрация</h3>
+						<p class="text-slate-400">Укажите email и телефон, пройдите оперативную верификацию.</p>
+					</div>
+					<div class="scroll-animation" style="transition-delay: 0.1s;">
+						<div class="text-4xl font-bold gradient-text mb-4">2</div>
+						<h3 class="text-xl font-bold text-white mb-2">Пополнение счета</h3>
+						<p class="text-slate-400">Банковские карты, переводы, PayPal, криптовалюты. Минимальное пополнение от $15.</p>
+					</div>
+					<div class="scroll-animation" style="transition-delay: 0.2s;">
+						<div class="text-4xl font-bold gradient-text mb-4">3</div>
+						<h3 class="text-xl font-bold text-white mb-2">Запуск ИИ-помощника</h3>
+						<p class="text-slate-400">Пройдите тест, получите рекомендации и начните Qezvoro trading.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="py-20 bg-slate-900/50">
+			<div class="container mx-auto px-6 text-center">
+				<div class="max-w-3xl mx-auto scroll-animation">
+					<h2 class="text-3xl md:text-5xl font-bold text-white">Присоединяйтесь к <span class="gradient-text">ИИ-революции</span> в инвестировании</h2>
+					<p class="text-slate-300 mt-4 text-lg">Более 48,000+ пользователей уже применяют Qezvoro для генерации стабильных доходов. ИИ работает круглосуточно, чтобы вы никогда не упускали прибыльные возможности.</p>
+					<ul class="text-left my-8 inline-block space-y-2">
+						<li class="text-slate-300">✓ Бесплатная регистрация за 25 секунд</li>
+						<li class="text-slate-300">✓ Демо-счет $2,000,000 для практики</li>
+						<li class="text-slate-300">✓ Первые 250 дней ИИ-сигналы бесплатно</li>
+						<li class="text-slate-300">✓ Русскоязычная поддержка 24/7</li>
+					</ul>
+					<div class="mt-4">
+						<a href="#register"
+							class="cta-button text-white font-bold px-8 py-4 rounded-lg text-lg">Начать ИИ-инвестирование прямо сейчас</a>
+					</div>
+					<p class="mt-8 text-slate-500 italic">"Лучшее время для инвестирования было вчера. Второе лучшее время — сегодня."</p>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer class="border-t border-slate-800">
+		<div class="container mx-auto px-6 py-8 text-center text-slate-400">
+			<a href="index.html" class="text-2xl font-bold gradient-text">Qezvoro</a>
+			<div class="flex justify-center gap-6 my-6">
+				<a href="about.html" class="hover:text-sky-400">О нас</a>
+				<a href="reviews.html" class="hover:text-sky-400">Отзывы</a>
+				<a href="contacts.html" class="hover:text-sky-400">Контакты</a>
+				<a href="policy.html" class="hover:text-sky-400">Политика конфиденциальности</a>
+			</div>
+			<p>© 2025 Qezvoro Invest. Все права защищены.</p>
+		</div>
+	</footer>
+
+	<script>
+		// ... ваш существующий JS без изменений ...
+		document.addEventListener('DOMContentLoaded', function () {
+			// Smooth Scroll, Scroll Animations, Counters, FAQ, Carousel...
+
+			// --- JS ДЛЯ НОВОГО DROPDOWN ---
+			const langSwitcher = document.getElementById('lang-switcher');
+			if (langSwitcher) {
+				const langSwitcherButton = document.getElementById('lang-switcher-button');
+				const langSwitcherMenu = document.getElementById('lang-switcher-menu');
+
+				langSwitcherButton.addEventListener('click', (event) => {
+					event.stopPropagation();
+					langSwitcherMenu.classList.toggle('hidden');
+				});
+
+				document.addEventListener('click', (event) => {
+					if (!langSwitcher.contains(event.target)) {
+						langSwitcherMenu.classList.add('hidden');
+					}
+				});
+			}
+		});
+	</script>
+
+	<script>
+		document.addEventListener('DOMContentLoaded', () => {
+			// Показать всё сразу, если не нужен «ленивый» эффект
+			// document.querySelectorAll('.scroll-animation').forEach(el => el.classList.add('visible'));
+
+			// Или вариант с IntersectionObserver (красивое появление при прокрутке)
+			if ('IntersectionObserver' in window) {
+				const io = new IntersectionObserver((entries) => {
+					entries.forEach(entry => {
+						if (entry.isIntersecting) {
+							entry.target.classList.add('visible');
+							io.unobserve(entry.target);
+						}
+					});
+				}, { threshold: 0.15 });
+
+				document.querySelectorAll('.scroll-animation').forEach(el => io.observe(el));
+			} else {
+				// Фоллбек
+				document.querySelectorAll('.scroll-animation').forEach(el => el.classList.add('visible'));
+			}
+		});
+	</script>
+
+</body>
+
+</html>

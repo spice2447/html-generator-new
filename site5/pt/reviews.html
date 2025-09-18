@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="pt" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avaliações do Qezvoro — Avaliações de usuários e ecossistema de afiliados</title>
+    <meta name="description" content="Mais de 48.000 usuários ativos confiam na Qezvoro Invest. Explore as histórias de sucesso reais dos nossos clientes.">
+    
+   <link rel="canonical" href="https://your-domain.com/pt/reviews.html">
+   <link rel="alternate" hreflang="ru" href="https://your-domain.com/ru/reviews.html">
+   <link rel="alternate" hreflang="en" href="https://your-domain.com/en/reviews.html">
+   <link rel="alternate" hreflang="es" href="https://your-domain.com/es/reviews.html">
+   <link rel="alternate" hreflang="de" href="https://your-domain.com/de/reviews.html">
+   <link rel="alternate" hreflang="fr" href="https://your-domain.com/fr/reviews.html">
+   <link rel="alternate" hreflang="it" href="https://your-domain.com/it/reviews.html">
+   <link rel="alternate" hreflang="ja" href="https://your-domain.com/ja/reviews.html">
+   <link rel="alternate" hreflang="ms" href="https://your-domain.com/ms/reviews.html">
+   <link rel="alternate" hreflang="pt" href="https://your-domain.com/pt/reviews.html">
+   <link rel="alternate" hreflang="cs" href="https://your-domain.com/cs/reviews.html">
+   <link rel="alternate" hreflang="x-default" href="https://your-domain.com/ru/reviews.html">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #030712; color: #d1d5db; }
+        .gradient-text { background: linear-gradient(90deg, #34d399, #22d3ee); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .cta-button { background-color: #10b981; transition: all .3s ease; box-shadow: 0 4px 20px rgba(16, 185, 129, 0.25); }
+        .cta-button:hover { transform: translateY(-3px); background-color: #059669; box-shadow: 0 7px 25px rgba(16, 185, 129, 0.35); }
+        .card { background-color: rgba(17, 24, 39, 0.8); border: 1px solid #374151; border-radius: 0.75rem; transition: all .3s ease; backdrop-filter: blur(10px); }
+        .card:hover { transform: translateY(-5px); border-color: #10b981; }
+        .scroll-animation { opacity: 0; transform: translateY(40px); transition: opacity .6s ease-out, transform .6s ease-out; }
+        .scroll-animation.visible { opacity: 1; transform: translateY(0); }
+        .filter-button { background-color: #374151; color: #d1d5db; }
+        .filter-button.active { background-color: #10b981; color: white; font-weight: 600; }
+    </style>
+</head>
+<body class="antialiased text-gray-300">
+
+    <header class="fixed top-0 left-0 right-0 z-50 bg-gray-950/80 backdrop-blur-lg border-b border-gray-800">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold gradient-text">Qezvoro Invest</a>
+            <nav class="hidden md:flex items-center space-x-8">
+               <a href="about.html" class="text-gray-400 hover:text-emerald-400 transition-colors duration-300">Sobre Nós</a>
+               <a href="reviews.html" class="text-emerald-400 font-semibold">Avaliações</a>
+               <a href="contacts.html" class="text-gray-400 hover:text-emerald-400 transition-colors duration-300">Contato</a>
+               <a href="policy.html" class="text-gray-400 hover:text-emerald-400 transition-colors duration-300">Privacidade</a>
+            </nav>
+            <div class="flex items-center space-x-4">
+                
+        <div class="relative" id="lang-switcher">
+            <button id="lang-switcher-button" class="flex items-center text-slate-300 hover:text-sky-400 transition">
+                <svg class="w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 21l5.25-11.25L21 21m-9-3h7.5M3 5.621a48.474 48.474 0 016-.371m0 0c1.12 0 2.233.038 3.334.114M9 5.25V3m3.334 2.364C11.176 10.658 7.69 15.08 3 17.502" /></svg>
+                <span class="uppercase">pt</span>
+                <svg class="w-4 h-4 ml-1" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" /></svg>
+            </button>
+            <div id="lang-switcher-menu" class="absolute top-full right-0 mt-2 w-40 bg-slate-800 border border-slate-700 rounded-md shadow-lg hidden z-10">
+                <a href="../ru/reviews.html" class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700">Русский</a><a href="../en/reviews.html" class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700">English</a><a href="../es/reviews.html" class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700">Español</a><a href="../de/reviews.html" class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700">Deutsch</a><a href="../fr/reviews.html" class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700">Français</a><a href="../it/reviews.html" class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700">Italiano</a><a href="../ja/reviews.html" class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700">日本語</a><a href="../ms/reviews.html" class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700">Bahasa Melayu</a><a href="../cs/reviews.html" class="block px-4 py-2 text-sm text-slate-300 hover:bg-slate-700">Čeština</a>
+            </div>
+        </div>
+    
+                <a href="index.html#register" class="hidden sm:block cta-button text-white font-bold px-6 py-2.5 rounded-md">Começar Agora</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="pt-20">
+        <section class="pt-24 pb-24 text-center">
+            <div class="container mx-auto px-6">
+                <h1 class="text-4xl md:text-5xl font-extrabold text-white mb-4 scroll-animation">Avaliações do Qezvoro — <span class="gradient-text">Avaliações de usuários</span> e ecossistema de afiliados</h1>
+                <p class="max-w-3xl mx-auto text-lg text-gray-400 mb-12 scroll-animation" style="transition-delay: 0.1s;">Mais de quatro milhões de traders em todo o mundo já geram lucros estáveis ​​graças aos nossos algoritmos de IA. Explore as histórias de sucesso reais dos nossos clientes.</p>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-5xl mx-auto">
+                    <div class="scroll-animation" style="transition-delay: 0.2s;">
+                        <p class="text-4xl font-bold gradient-text">⭐ <span class="counter" data-target="4.9" data-decimal="1">0</span>/5.0</p>
+                        <p class="text-gray-400 mt-2">Classificação média</p>
+                    </div>
+                    <div class="scroll-animation" style="transition-delay: 0.3s;">
+                        <p class="text-4xl font-bold gradient-text"><span class="counter" data-target="94">0</span>%</p>
+                        <p class="text-gray-400 mt-2">Nos recomendam</p>
+                    </div>
+                    <div class="scroll-animation" style="transition-delay: 0.4s;">
+                        <p class="text-4xl font-bold gradient-text">$<span class="counter" data-target="2.3" data-decimal="1">0</span>B+</p>
+                        <p class="text-gray-400 mt-2">Capital sob gestão</p>
+                    </div>
+                    <div class="scroll-animation" style="transition-delay: 0.5s;">
+                        <p class="text-4xl font-bold gradient-text"><span class="counter" data-target="15">0</span>+</p>
+                        <p class="text-gray-400 mt-2">Alianças estratégicas</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-20 bg-gray-950">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12 scroll-animation">
+                    <h2 class="text-3xl md:text-4xl font-bold text-white">Categorias de avaliações de usuários sobre Qezvoro</h2>
+                </div>
+                <div id="review-filters" class="flex justify-center flex-wrap gap-3 mb-12 scroll-animation">
+                    <button class="filter-button px-5 py-2 rounded-full active" data-filter="all">Todas as categorias</button>
+                    <button class="filter-button px-5 py-2 rounded-full" data-filter="beginner">Investidores iniciantes</button>
+                    <button class="filter-button px-5 py-2 rounded-full" data-filter="pro">Traders profissionais</button>
+                    <button class="filter-button px-5 py-2 rounded-full" data-filter="international">Clientes internacionais</button>
+                </div>
+                <div id="review-grid" class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="card p-8 flex flex-col review-item" data-category="beginner">
+                        <p class="text-gray-300 flex-grow">""Nunca considerei investir como uma oportunidade. Decidi experimentá-la com US$ 420. Em quinze meses, a carteira apresentou um crescimento de 63%!""</p>
+                        <div class="mt-6 border-t border-gray-700 pt-4">
+                            <p class="font-bold text-white">Olga Melnik, 29</p>
+                            <p class="text-sm text-gray-400">Web designer, Lviv</p>
+                            <p class="text-sm font-semibold gradient-text mt-2">+63% em 15 meses</p>
+                        </div>
+                    </div>
+                    <div class="card p-8 flex flex-col review-item" data-category="pro">
+                        <p class="text-gray-300 flex-grow">""Trabalho no mercado financeiro há 31 anos. A eficácia da Qezvoro me surpreendeu. Minha lucratividade anual aumentou de 28% para 74%.""</p>
+                        <div class="mt-6 border-t border-gray-700 pt-4">
+                            <p class="font-bold text-white">David Smith, 49</p>
+                            <p class="text-sm text-gray-400">Gerente de Portfólio, Londres</p>
+                            <p class="text-sm font-semibold gradient-text mt-2">Crescimento da eficiência: 28% a 74% ao ano</p>
+                        </div>
+                    </div>
+                    <div class="card p-8 flex flex-col review-item" data-category="international">
+                        <p class="text-gray-300 flex-grow">""A capacidade da IA de analisar tendências globais do mercado é extraordinária. Um portfólio obteve retorno de 91% em energia renovável emergente.""</p>
+                        <div class="mt-6 border-t border-gray-700 pt-4">
+                            <p class="font-bold text-white">Thomas Mueller, 48</p>
+                            <p class="text-sm text-gray-400">Gerente de Investimentos, Frankfurt</p>
+                            <p class="text-sm font-semibold gradient-text mt-2">+91% em Mercados Emergentes</p>
+                        </div>
+                    </div>
+                     </div>
+            </div>
+        </section>
+        
+        <section class="py-20">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-16 scroll-animation">
+                    <h2 class="text-3xl md:text-4xl font-bold text-white">Ecossistema de parceiros estratégicos <span class="gradient-text">Qezvoro</span></h2>
+                    <p class="text-lg text-gray-400 mt-4">Nossa rede de parceiros reúne líderes em serviços financeiros, tecnologia e regulamentação. Essa colaboração garante condições de negociação superiores.</p>
+                </div>
+                <div class="space-y-16">
+                    <div class="scroll-animation">
+                        <h3 class="text-2xl font-bold text-center text-cyan-400 mb-8">Technology Alliances</h3>
+                        <div class="grid grid-cols-2 md:grid-cols-4 gap-8 items-center">
+                            <div class="text-center transition-all duration-300 filter grayscale hover:grayscale-0 hover:scale-105"><img src="https://placehold.co/150x50/030712/ffffff?text=Google+Cloud" alt="Google Cloud" class="mx-auto"></div>
+                            <div class="text-center transition-all duration-300 filter grayscale hover:grayscale-0 hover:scale-105"><img src="https://placehold.co/150x50/030712/ffffff?text=NVIDIA" alt="NVIDIA" class="mx-auto"></div>
+                            <div class="text-center transition-all duration-300 filter grayscale hover:grayscale-0 hover:scale-105"><img src="https://placehold.co/150x50/030712/ffffff?text=Bloomberg" alt="Bloomberg" class="mx-auto"></div>
+                            <div class="text-center transition-all duration-300 filter grayscale hover:grayscale-0 hover:scale-105"><img src="https://placehold.co/150x50/030712/ffffff?text=Interactive+Brokers" alt="Interactive Brokers" class="mx-auto"></div>
+                        </div>
+                    </div>
+                    <div class="scroll-animation">
+                        <h3 class="text-2xl font-bold text-center text-cyan-400 mb-8">Banking & Custody</h3>
+                        <div class="grid grid-cols-2 md:grid-cols-3 gap-8 items-center max-w-4xl mx-auto">
+                            <div class="text-center transition-all duration-300 filter grayscale hover:grayscale-0 hover:scale-105"><img src="https://placehold.co/150x50/030712/ffffff?text=JP+Morgan" alt="JP Morgan" class="mx-auto"></div>
+                            <div class="text-center transition-all duration-300 filter grayscale hover:grayscale-0 hover:scale-105"><img src="https://placehold.co/150x50/030712/ffffff?text=HSBC" alt="HSBC" class="mx-auto"></div>
+                            <div class="text-center transition-all duration-300 filter grayscale hover:grayscale-0 hover:scale-105"><img src="https://placehold.co/150x50/030712/ffffff?text=State+Street" alt="State Street" class="mx-auto"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-20 bg-gray-950">
+            <div class="container mx-auto px-6 max-w-4xl">
+                 <div class="text-center mb-12 scroll-animation">
+                    <h2 class="text-3xl md:text-4xl font-bold text-white">Golpe do Qezvoro ou uma <span class="gradient-text">oportunidade real?</span></h2>
+                    <p class="text-lg text-gray-400 mt-4">Em uma era de muitos projetos fintech duvidosos, a Qezvoro Invest demonstra total transparência.</p>
+                </div>
+                <div class="grid md:grid-cols-2 gap-x-12 gap-y-6">
+                    <div class="flex items-center space-x-4 scroll-animation"><span class="text-emerald-400 text-2xl">✓</span><p>✅Licenciado em 45 jurisdições</p></div>
+                    <div class="flex items-center space-x-4 scroll-animation"><span class="text-emerald-400 text-2xl">✓</span><p>✅Auditorias EY</p></div>
+                    <div class="flex items-center space-x-4 scroll-animation"><span class="text-emerald-400 text-2xl">✓</span><p>✅Relatórios públicos</p></div>
+                    <div class="flex items-center space-x-4 scroll-animation"><span class="text-emerald-400 text-2xl">✓</span><p>✅Seguros Lloyd's de Londres</p></div>
+                    <div class="flex items-center space-x-4 scroll-animation"><span class="text-emerald-400 text-2xl">✓</span><p>✅Equipe transparente</p></div>
+                    <div class="flex items-center space-x-4 scroll-animation"><span class="text-emerald-400 text-2xl">✓</span><p>✅3+ anos de trabalho</p></div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="py-24">
+            <div class="container mx-auto px-6 text-center">
+                <div class="max-w-3xl mx-auto scroll-animation">
+                    <h2 class="text-3xl md:text-4xl font-bold text-white">Junte-se à comunidade de <span class="gradient-text">investidores de sucesso</span></h2>
+                    <p class="text-gray-400 mt-5 text-lg">Cada avaliação e cada parceria fazem parte do ecossistema de confiança que criamos em conjunto com nossos clientes.</p>
+                    <div class="my-10 card p-6 max-w-md mx-auto">
+                        <h3 class="text-xl font-bold text-white mb-4">Garantias de qualidade</h3>
+                        <ul class="space-y-2 text-gray-300">
+                            <li class="flex items-center justify-center gap-2"><span class="text-emerald-400">✓</span> ✓Garantia de devolução do dinheiro em 250 dias</li>
+                            <li class="flex items-center justify-center gap-2"><span class="text-emerald-400">✓</span> ✓Auditoria independente pela EY</li>
+                            <li class="flex items-center justify-center gap-2"><span class="text-emerald-400">✓</span> ✓Seguro de depósito de até $3.800.000</li>
+                            <li class="flex items-center justify-center gap-2"><span class="text-emerald-400">✓</span> ✓Suporte 24 horas por dia, 7 dias por semana no seu idioma</li>
+                        </ul>
+                    </div>
+                    <a href="index.html#register" class="cta-button text-white font-bold px-8 py-4 rounded-lg text-xl">Comece a investir com líderes de mercado</a>
+                    <p class="mt-10 text-gray-500 italic text-lg">“"A Qezvoro Invest estabeleceu um novo padrão para investimentos de varejo com tecnologia de IA. Sua abordagem ao ecossistema de parceiros e ao sucesso do cliente é um modelo para todo o setor de fintech."<br>- Elena Petrova, sócia-gerente da Accel Europe”</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-950 border-t border-gray-800">
+        <div class="container mx-auto px-6 py-8 text-center text-gray-500">
+            <a href="index.html" class="text-3xl font-bold gradient-text">Qezvoro Invest</a>
+            <div class="flex justify-center gap-6 my-6">
+               <a href="about.html" class="hover:text-emerald-400 transition">Sobre Nós</a>
+               <a href="reviews.html" class="hover:text-emerald-400 transition">Avaliações</a>
+               <a href="contacts.html" class="hover:text-emerald-400 transition">Contato</a>
+               <a href="policy.html" class="hover:text-emerald-400 transition">Privacidade</a>
+            </div>
+            <p class="text-sm">© 2025 Qezvoro Invest. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+    
+    <script>
+    document.addEventListener('DOMContentLoaded', () => {
+        // --- НАЧАЛО: КОД ДЛЯ ДРОПДАУНА (ДОБАВИТЬ) ---
+        const langSwitcher = document.getElementById('lang-switcher');
+        if (langSwitcher) {
+            const langSwitcherButton = document.getElementById('lang-switcher-button');
+            const langSwitcherMenu = document.getElementById('lang-switcher-menu');
+
+            langSwitcherButton.addEventListener('click', (event) => {
+                event.stopPropagation(); // Остановить всплытие, чтобы клик не закрыл меню сразу
+                langSwitcherMenu.classList.toggle('hidden');
+            });
+
+            // Закрывать меню при клике вне его области
+            document.addEventListener('click', (event) => {
+                if (langSwitcherMenu && !langSwitcher.contains(event.target)) {
+                    langSwitcherMenu.classList.add('hidden');
+                }
+            });
+        }
+        // --- КОНЕЦ: КОД ДЛЯ ДРОПДАУНА ---
+
+
+        // Scroll Animations (этот код у вас уже есть)
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.1 });
+        document.querySelectorAll('.scroll-animation').forEach(el => observer.observe(el));
+        
+        // Animated Counters (этот код тоже может быть на некоторых страницах)
+        const counterObserver = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => { if (entry.isIntersecting) { const counter = entry.target; const target = +counter.getAttribute('data-target'); const isDecimal = counter.getAttribute('data-decimal'); const duration = 2000; let startTime = null; const step = (timestamp) => { if (!startTime) startTime = timestamp; const progress = Math.min((timestamp - startTime) / duration, 1); let currentValue = progress * target; if (isDecimal) { counter.innerText = currentValue.toFixed(parseInt(isDecimal)); } else { counter.innerText = Math.floor(currentValue).toLocaleString('en-US'); } if (progress < 1) { requestAnimationFrame(step); } else { if (isDecimal) { counter.innerText = target.toFixed(parseInt(isDecimal)); } else { counter.innerText = target.toLocaleString('en-US'); } } }; requestAnimationFrame(step); observer.unobserve(counter); } });
+        }, { threshold: 0.5 });
+        document.querySelectorAll('.counter').forEach(counter => counterObserver.observe(counter));
+    });
+</script>
+</body>
+</html>
