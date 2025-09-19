@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qezvoro Invest — Soluciones Financieras Inteligentes de Vanguardia</title>
+    <meta name="description" content="Explore nuevas oportunidades financieras con inteligencia artificial avanzada. Negocie divisas digitales, acciones globales, ETFs y materias primas.">
+    
+   <link rel="canonical" href="https://your-domain.com/es/index.html">
+   <link rel="alternate" hreflang="ru" href="https://your-domain.com/ru/index.html">
+   <link rel="alternate" hreflang="en" href="https://your-domain.com/en/index.html">
+   <link rel="alternate" hreflang="es" href="https://your-domain.com/es/index.html">
+   <link rel="alternate" hreflang="de" href="https://your-domain.com/de/index.html">
+   <link rel="alternate" hreflang="fr" href="https://your-domain.com/fr/index.html">
+   <link rel="alternate" hreflang="it" href="https://your-domain.com/it/index.html">
+   <link rel="alternate" hreflang="ja" href="https://your-domain.com/ja/index.html">
+   <link rel="alternate" hreflang="ms" href="https://your-domain.com/ms/index.html">
+   <link rel="alternate" hreflang="pt" href="https://your-domain.com/pt/index.html">
+   <link rel="alternate" hreflang="cs" href="https://your-domain.com/cs/index.html">
+   <link rel="alternate" hreflang="x-default" href="https://your-domain.com/ru/index.html">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f5f5f4; /* Stone 100 */
+            color: #44403c; /* Stone 700 */
+        }
+        .accent-text {
+            color: #b48a3a; /* Custom Gold */
+        }
+        .cta-button {
+            background: linear-gradient(145deg, #caa55d, #b48a3a);
+            color: white;
+            transition: all .3s ease;
+            box-shadow: 0 4px 15px rgba(180, 138, 58, 0.2);
+            border-radius: 0.5rem;
+        }
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 7px 20px rgba(180, 138, 58, 0.3);
+        }
+        .card {
+            background-color: #ffffff;
+            border-radius: 0.75rem; /* rounded-xl */
+            transition: all .3s ease;
+            border: 1px solid #e7e5e4; /* Stone 200 */
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04);
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.06);
+        }
+        .form-input {
+            background-color: #f5f5f4; /* Stone 100 */
+            border: 1px solid #d6d3d1; /* Stone 300 */
+            color: #1c1917; /* Stone 900 */
+            border-radius: 0.5rem;
+            padding: 0.85rem 1rem;
+            transition: all .3s ease;
+        }
+        .form-input:focus {
+            outline: 0;
+            border-color: #b48a3a;
+            box-shadow: 0 0 0 3px rgba(180, 138, 58, 0.2);
+        }
+        .scroll-animation { opacity: 0; transform: translateY(30px); transition: opacity .6s ease-out, transform .6s ease-out; }
+        .scroll-animation.visible { opacity: 1; transform: translateY(0); }
+    </style>
+</head>
+<body class="antialiased">
+
+    <header class="sticky top-0 z-50 bg-white/80 backdrop-blur-lg border-b border-stone-200">
+        <div class="container mx-auto px-6 h-20 flex items-center justify-between">
+            <a href="index.html" class="text-2xl font-bold accent-text">Qezvoro</a>
+            <div class="flex items-center space-x-8">
+                <nav class="hidden md:flex items-center space-x-8">
+                   <a href="about.html" class="text-stone-600 hover:text-stone-900 transition-colors"></a>
+                   <a href="reviews.html" class="text-stone-600 hover:text-stone-900 transition-colors"></a>
+                   <a href="contacts.html" class="text-stone-600 hover:text-stone-900 transition-colors"></a>
+                </nav>
+                <div id="lang-switcher" class="relative">
+                    <button id="lang-switcher-button" type="button" class="flex items-center gap-2 text-stone-500 hover:text-stone-900 transition-colors">
+                        <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM4.332 8.027a6.012 6.012 0 011.912-2.706C6.512 5.73 6.512 5.73 6.512 5.73s0 .001 0 .002a6.012 6.012 0 013.488 0c0-.001 0-.002 0-.002s0 0 0 0a6.012 6.012 0 011.912 2.706c.064.245.097.502.097.761 0 .26-.033.516-.097.761a6.012 6.012 0 01-1.912 2.706s0 0 0 0c0 .001 0 .002 0 .002a6.012 6.012 0 01-3.488 0c0-.001 0-.002 0-.002s0 0 0 0a6.012 6.012 0 01-1.912-2.706A6.007 6.007 0 014 8.788c0-.26.033.516.097-.761z" clip-rule="evenodd" /></svg>
+                        <span class="text-sm font-medium">EN</span>
+                    </button>
+                    <div id="lang-switcher-menu" class="hidden absolute right-0 mt-3 w-40 bg-white border border-stone-200 rounded-lg shadow-lg z-10">
+                        <div class="py-1">
+                            <a href="/en/" class="block px-4 py-2 text-sm text-stone-700 hover:bg-stone-100">English</a>
+                            <a href="/es/" class="block px-4 py-2 text-sm text-stone-700 hover:bg-stone-100">Español</a>
+                            <a href="/de/" class="block px-4 py-2 text-sm text-stone-700 hover:bg-stone-100">Deutsch</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="py-24 md:py-32 text-center">
+            <div class="container mx-auto px-6">
+                <div class="max-w-4xl mx-auto">
+                    <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold text-stone-900 leading-tight mb-6 scroll-animation"><span class="gradient-text">Qezvoro Invest</span> — El ecosistema de trading avanzado del futuro</h1>
+                    <p class="max-w-2xl mx-auto text-lg text-stone-600 mb-10 scroll-animation" style="transition-delay: 0.1s;">Descubra posibilidades ilimitadas para su capital de inversión con tecnologías revolucionarias de inteligencia artificial. Qezvoro Trading ofrece acceso integral a la negociación de activos digitales, valores globales, fondos mutuos y bolsas de materias primas a través de nuestros avanzados sistemas de aprendizaje profundo.</p>
+                    <div class="flex flex-col sm:flex-row justify-center items-center gap-4 scroll-animation" style="transition-delay: 0.2s;">
+                       <a href="#register" class="cta-button font-bold px-8 py-4 text-lg w-full sm:w-auto">Ejecutar análisis de IA</a>
+                       <a href="about.html" class="font-semibold text-stone-600 px-8 py-4 w-full sm:w-auto hover:text-stone-900"> →</a>
+                    </div>
+                     <p class="mt-5 text-sm text-stone-500 scroll-animation" style="transition-delay: 0.3s;">Activación gratuita • Cuenta demo • Sin compromisos financieros</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-20">
+            <div class="container mx-auto px-6 text-center">
+                <div class="grid grid-cols-2 md:grid-cols-5 gap-8">
+                   <div class="scroll-animation"><p class="text-4xl font-bold accent-text counter" data-target="50000">0</p><p class="text-stone-500 mt-2">usuarios activos</p></div>
+                   <div class="scroll-animation" style="transition-delay: 0.1s;"><p class="text-4xl font-bold accent-text">$<span class="counter" data-target="2.3" data-decimal="1">0</span>B+</p><p class="text-stone-500 mt-2">en volumen comercial total</p></div>
+                   <div class="scroll-animation" style="transition-delay: 0.2s;"><p class="text-4xl font-bold accent-text"><span class="counter" data-target="87">0</span>%</p><p class="text-stone-500 mt-2">de precisión en las predicciones de IA</p></div>
+                   <div class="scroll-animation" style="transition-delay: 0.3s;"><p class="text-4xl font-bold accent-text">24/7</p><p class="text-stone-500 mt-2">seguimiento 24/7 de plataformas comerciales globales</p></div>
+                   <div class="scroll-animation col-span-2 md:col-span-1" style="transition-delay: 0.4s;"><p class="text-4xl font-bold accent-text counter" data-target="15">0</p><p class="text-stone-500 mt-2">sistemas de intercambio conectados</p></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="register" class="py-24">
+            <div class="container mx-auto px-6">
+               <div class="max-w-xl mx-auto text-center scroll-animation">
+                     <h2 class="text-3xl md:text-4xl font-bold text-stone-900 mb-4">Empieza a operar con IA en <span class="gradient-text">menos de 60 segundos</span></h2>
+                     <p class="text-stone-600 text-lg mb-8">Más de 53.000 usuarios activos ya confían en nuestros algoritmos.</p>
+                </div>
+                <div class="card max-w-xl mx-auto p-8 scroll-animation" style="transition-delay: 0.1s;">
+                     <form>
+                        <div class="space-y-5">
+                           <input type="text" placeholder="Nombre y apellido" class="w-full form-input">
+                           <input type="email" placeholder="Correo electrónico" class="w-full form-input">
+                           <input type="tel" placeholder="Número de teléfono" class="w-full form-input">
+                           <select class="w-full form-input text-stone-500">
+                              <option>Experiencia en inversión</option>
+                              <option>Principiante</option>
+                              <option>Intermedio</option>
+                              <option>Experto</option>
+                           </select>
+                           <button type="submit" class="w-full cta-button font-bold p-4 text-lg">Ejecutar análisis de IA</button>
+                        </div>
+                     </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-24 bg-white">
+             <div class="container mx-auto px-6">
+                <div class="text-center max-w-3xl mx-auto mb-16 scroll-animation">
+                   <h2 class="text-3xl md:text-4xl font-bold text-stone-900">Qezvoro Invest crea un entorno integral para una inversión exitosa</h2>
+                   <p class="text-stone-600 mt-4 text-lg">Nuestra plataforma tecnológica reúne instrumentos financieros probados e innovadores en un único ecosistema, donde cada decisión de inversión se basa en potentes cálculos de inteligencia artificial y análisis exhaustivos.</p>
+                </div>
+                <div class="grid md:grid-cols-2 gap-8">
+                   <div class="card p-8 scroll-animation"><h3 class="text-xl font-bold text-stone-800 mb-2">Plataforma de negociación de múltiples activos</h3><p class="text-stone-600">Opere con acciones globales, criptomonedas, ETF, materias primas y pares de divisas a través de una interfaz unificada. Cree carteras diversificadas en diferentes clases de activos y reduzca los riesgos con herramientas profesionales de cobertura.</p></div>
+                   <div class="card p-8 scroll-animation" style="transition-delay: 0.1s;"><h3 class="text-xl font-bold text-stone-800 mb-2">Análisis y pronósticos inteligentes</h3><p class="text-stone-600">Señales de trading individuales creadas a partir del análisis de estadísticas, modelos técnicos, indicadores fundamentales y sentimiento del mercado. Los algoritmos de Qezvoro analizan cada operación ejecutada, lo que aumenta la precisión de los pronósticos.</p></div>
+                   <div class="card p-8 scroll-animation" style="transition-delay: 0.2s;"><h3 class="text-xl font-bold text-stone-800 mb-2">Ejecución ultrarrápida de aplicaciones</h3><p class="text-stone-600">La conexión directa con las principales bolsas internacionales garantiza la ejecución inmediata de las órdenes. Spreads mínimos, deslizamientos sin límites y precios justos garantizan la rentabilidad de cada transacción.</p></div>
+                   <div class="card p-8 scroll-animation" style="transition-delay: 0.3s;"><h3 class="text-xl font-bold text-stone-800 mb-2">Entorno de usuario intuitivo</h3><p class="text-stone-600">Funcionalidad profesional en una interfaz clara. Paneles personalizables, análisis gráficos avanzados, trading con un solo clic y una aplicación móvil que ofrecen acceso constante a la inversión.</p></div>
+                </div>
+             </div>
+        </section>
+        
+        <section class="py-24">
+            <div class="container mx-auto px-6 text-center">
+                <div class="max-w-3xl mx-auto scroll-animation card p-10 md:p-16">
+                    <h2 class="text-3xl md:text-4xl font-bold text-stone-900">Únase a la <span class="gradient-text">revolución de la inversión en IA</span></h2>
+                    <p class="text-stone-600 mt-4 text-lg">Más de 53.000 usuarios activos ya utilizan Qezvoro Invest para generar ingresos estables en los mercados financieros. La inteligencia artificial opera continuamente, analizando millones de datos para que nunca pierdas oportunidades rentables.</p>
+                    <div class="mt-8">
+                        <a href="#register" class="cta-button font-bold px-8 py-4 text-lg inline-block">Empiece a invertir en IA ahora</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-white border-t border-stone-200">
+        <div class="container mx-auto px-6 py-12 text-center text-stone-500">
+            <a href="index.html" class="text-2xl font-bold accent-text">Qezvoro</a>
+            <div class="flex justify-center gap-6 my-6">
+               <a href="about.html" class="hover:text-stone-800"></a>
+               <a href="reviews.html" class="hover:text-stone-800"></a>
+               <a href="contacts.html" class="hover:text-stone-800"></a>
+               <a href="policy.html" class="hover:text-stone-800"></a>
+            </div>
+            <p class="text-sm"></p>
+        </div>
+    </footer>
+    
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        // --- Логика для выпадающего меню языка ---
+        const langSwitcher = document.getElementById('lang-switcher');
+        if (langSwitcher) {
+            const langSwitcherButton = document.getElementById('lang-switcher-button');
+            const langSwitcherMenu = document.getElementById('lang-switcher-menu');
+            const langSwitcherText = document.getElementById('lang-switcher-text');
+            const langSwitcherList = document.getElementById('lang-switcher-list');
+
+            const currentLang = document.documentElement.lang || 'en';
+            const langDisplayMap = {
+                cs: 'CS', de: 'DE', en: 'EN', es: 'ES', fr: 'FR',
+                it: 'IT', ja: 'JA', ms: 'MS', pt: 'PT', ru: 'RU'
+            };
+
+            if (langSwitcherText && langDisplayMap[currentLang]) {
+                langSwitcherText.textContent = langDisplayMap[currentLang];
+            }
+            if (langSwitcherList) {
+                const activeLink = langSwitcherList.querySelector(`[data-lang="${currentLang}"]`);
+                if (activeLink) {
+                    activeLink.classList.add('font-bold', 'accent-text');
+                    activeLink.style.pointerEvents = 'none'; // Делаем активную ссылку некликабельной
+                }
+            }
+            
+            langSwitcherButton.addEventListener('click', (event) => {
+                event.stopPropagation();
+                langSwitcherMenu.classList.toggle('hidden');
+            });
+            
+            document.addEventListener('click', (event) => {
+                if (langSwitcherMenu && !langSwitcher.contains(event.target)) {
+                    langSwitcherMenu.classList.add('hidden');
+                }
+            });
+
+            // --- ИСПРАВЛЕНИЕ: Динамическая смена языка ---
+            langSwitcherList.querySelectorAll('.lang-option').forEach(link => {
+                link.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    const targetLang = link.getAttribute('data-lang');
+                    const path = window.location.pathname;
+                    
+                    // Находим текущий язык и имя файла в пути
+                    // Пример: /public/cs/about.html -> [ "cs", "about.html" ]
+                    const pathRegex = /\/([a-z]{2})\/([a-zA-Z0-9_.-]+)$/;
+                    const match = path.match(pathRegex);
+
+                    if (match && match.length === 3) {
+                        const currentFile = match[2];
+                        // Формируем новый относительный путь
+                        const newPath = `../${targetLang}/${currentFile}`;
+                        window.location.href = newPath;
+                    } else {
+                        // Фоллбэк, если структура URL отличается
+                        console.warn('Could not determine current page structure from URL:', path);
+                    }
+                });
+            });
+        }
+
+        // --- Анимации при прокрутке ---
+        if ('IntersectionObserver' in window) {
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.1 });
+            document.querySelectorAll('.scroll-animation').forEach(el => observer.observe(el));
+        }
+
+        // --- Анимированные счетчики ---
+        document.querySelectorAll('.counter').forEach(counter => {
+            const observer = new IntersectionObserver((entries) => {
+                if (entries[0].isIntersecting) {
+                    // ... (остальной код счетчика)
+                    observer.unobserve(counter);
+                }
+            }, { threshold: 0.5 });
+            observer.observe(counter);
+        });
+        
+        // --- Плавная прокрутка для якорных ссылок ---
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                if(targetElement) {
+                    targetElement.scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        });
+    });
+</script>
+</body>
+</html>

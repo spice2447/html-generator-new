@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reseñas de Qezvoro — Opiniones de usuarios y ecosistema de afiliados</title>
+    <meta name="description" content="Más de 48.000 usuarios activos confían sus inversiones en Qezvoro Invest">
+    
+   <link rel="canonical" href="https://your-domain.com/es/reviews.html">
+   <link rel="alternate" hreflang="ru" href="https://your-domain.com/ru/reviews.html">
+   <link rel="alternate" hreflang="en" href="https://your-domain.com/en/reviews.html">
+   <link rel="alternate" hreflang="es" href="https://your-domain.com/es/reviews.html">
+   <link rel="alternate" hreflang="de" href="https://your-domain.com/de/reviews.html">
+   <link rel="alternate" hreflang="fr" href="https://your-domain.com/fr/reviews.html">
+   <link rel="alternate" hreflang="it" href="https://your-domain.com/it/reviews.html">
+   <link rel="alternate" hreflang="ja" href="https://your-domain.com/ja/reviews.html">
+   <link rel="alternate" hreflang="ms" href="https://your-domain.com/ms/reviews.html">
+   <link rel="alternate" hreflang="pt" href="https://your-domain.com/pt/reviews.html">
+   <link rel="alternate" hreflang="cs" href="https://your-domain.com/cs/reviews.html">
+   <link rel="alternate" hreflang="x-default" href="https://your-domain.com/ru/reviews.html">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0d1117;
+            color: #c9d1d9;
+            background-image: radial-gradient(at 20% 25%, hsla(212,45%,25%,0.3) 0px, transparent 50%),
+                              radial-gradient(at 80% 30%, hsla(282,45%,25%,0.25) 0px, transparent 50%),
+                              radial-gradient(at 25% 80%, hsla(322,45%,25%,0.2) 0px, transparent 50%);
+        }
+        .accent-text { background: linear-gradient(90deg, #a855f7, #d946ef); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .cta-button { background: linear-gradient(90deg, #a855f7, #d946ef); color: white; transition: all .3s ease; box-shadow: 0 5px 20px rgba(168, 85, 247, 0.3); border-radius: 0.5rem; }
+        .cta-button:hover { transform: translateY(-3px); box-shadow: 0 8px 25px rgba(217, 70, 239, 0.4); }
+        .glass-card { background: rgba(22, 27, 34, 0.5); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 1rem; transition: all .3s ease; }
+        .scroll-animation { opacity: 0; transform: translateY(30px); transition: opacity .6s ease-out, transform .6s ease-out; }
+        .scroll-animation.visible { opacity: 1; transform: translateY(0); }
+        .filter-button { background-color: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); color: #c9d1d9; transition: all .2s ease-in-out; }
+        .filter-button.active { background: linear-gradient(90deg, #a855f7, #d946ef); color: white; font-weight: 600; border-color: transparent; }
+        .filter-button:hover:not(.active) { background-color: rgba(255,255,255,0.1); }
+    </style>
+</head>
+<body class="antialiased overflow-x-hidden">
+
+    <header class="sticky top-4 z-50">
+        <div class="container mx-auto px-6">
+            <div class="glass-card h-16 flex items-center justify-between px-6">
+                <a href="index.html" class="text-2xl font-bold accent-text">Qezvoro</a>
+                <div class="flex items-center space-x-6">
+                    <nav class="hidden md:flex items-center space-x-6">
+                       <a href="about.html" class="text-gray-300 hover:text-white transition-colors text-sm font-medium"></a>
+                       <a href="reviews.html" class="text-white font-semibold text-sm"></a>
+                       <a href="contacts.html" class="text-gray-300 hover:text-white transition-colors text-sm font-medium"></a>
+                    </nav>
+                    <div id="lang-switcher" class="relative">
+                        <button id="lang-switcher-button" type="button" class="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
+                            <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path d="M7.75 2.75a.75.75 0 00-1.5 0v1.258a5.993 5.993 0 00-2.352 1.222l-.875-.875a.75.75 0 00-1.06 1.06l.875.875A5.993 5.993 0 002 8.75H.75a.75.75 0 000 1.5h1.25a5.993 5.993 0 001.222 2.352l-.875.875a.75.75 0 101.06 1.06l.875-.875c.67.513 1.474.882 2.352 1.222v1.258a.75.75 0 001.5 0v-1.258c.878-.34 1.682-.71 2.352-1.222l.875.875a.75.75 0 101.06-1.06l-.875-.875a5.993 5.993 0 001.222-2.352h1.25a.75.75 0 000-1.5h-1.25a5.993 5.993 0 00-1.222-2.352l.875-.875a.75.75 0 10-1.06-1.06l-.875.875A5.993 5.993 0 0010.25 4.008V2.75zM8.5 10a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0z" /></svg>
+                            <span id="lang-switcher-text" class="text-sm font-medium">EN</span>
+                        </button>
+                        <div id="lang-switcher-menu" class="hidden absolute right-0 mt-3 w-48 glass-card border-none py-1 z-10">
+                            <div id="lang-switcher-list">
+                                <a href="#" data-lang="cs" class="lang-option block px-4 py-2 text-sm text-gray-300 hover:bg-white/5">Čeština (CS)</a>
+                                <a href="#" data-lang="de" class="lang-option block px-4 py-2 text-sm text-gray-300 hover:bg-white/5">Deutsch (DE)</a>
+                                <a href="#" data-lang="en" class="lang-option block px-4 py-2 text-sm text-gray-300 hover:bg-white/5">English (EN)</a>
+                                <a href="#" data-lang="es" class="lang-option block px-4 py-2 text-sm text-gray-300 hover:bg-white/5">Español (ES)</a>
+                                <a href="#" data-lang="fr" class="lang-option block px-4 py-2 text-sm text-gray-300 hover:bg-white/5">Français (FR)</a>
+                                <a href="#" data-lang="it" class="lang-option block px-4 py-2 text-sm text-gray-300 hover:bg-white/5">Italiano (IT)</a>
+                                <a href="#" data-lang="ja" class="lang-option block px-4 py-2 text-sm text-gray-300 hover:bg-white/5">日本語 (JA)</a>
+                                <a href="#" data-lang="ms" class="lang-option block px-4 py-2 text-sm text-gray-300 hover:bg-white/5">Bahasa Melayu (MS)</a>
+                                <a href="#" data-lang="pt" class="lang-option block px-4 py-2 text-sm text-gray-300 hover:bg-white/5">Português (PT)</a>
+                                <a href="#" data-lang="ru" class="lang-option block px-4 py-2 text-sm text-gray-300 hover:bg-white/5">Русский (RU)</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="pt-10">
+        <section class="py-24 text-center">
+            <div class="container mx-auto px-6">
+                <h1 class="text-4xl md:text-5xl font-extrabold text-white mb-4 scroll-animation">Reseñas de Qezvoro — <span class="gradient-text">Opiniones de usuarios</span> y ecosistema de afiliados</h1>
+                <p class="max-w-3xl mx-auto text-lg text-gray-300 mb-12 scroll-animation" style="transition-delay: 0.1s;">Más de cuatro millones de traders en todo el mundo ya generan ganancias estables gracias a nuestros algoritmos de IA. Descubra las historias de éxito reales de nuestros clientes y conozca a los socios estratégicos que ofrecen un servicio de primera clase y la máxima fiabilidad de la plataforma Qezvoro.</p>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-5xl mx-auto">
+                    <div class="scroll-animation" style="transition-delay: 0.2s;">
+                        <p class="text-4xl font-bold accent-text"><span class="counter" data-target="4.9" data-decimal="1">0</span>/5.0</p>
+                        <p class="text-gray-400 mt-2 text-sm">Calificación promedio de la plataforma</p>
+                    </div>
+                    <div class="scroll-animation" style="transition-delay: 0.3s;">
+                        <p class="text-4xl font-bold accent-text"><span class="counter" data-target="94">0</span>%</p>
+                        <p class="text-gray-400 mt-2 text-sm">Los clientes nos recomiendan</p>
+                    </div>
+                    <div class="scroll-animation" style="transition-delay: 0.4s;">
+                        <p class="text-4xl font-bold accent-text">$<span class="counter" data-target="2.3" data-decimal="1">0</span>B+</p>
+                        <p class="text-gray-400 mt-2 text-sm">Capital bajo gestión</p>
+                    </div>
+                    <div class="scroll-animation" style="transition-delay: 0.5s;">
+                        <p class="text-4xl font-bold accent-text"><span class="counter" data-target="15">0</span>+</p>
+                        <p class="text-gray-400 mt-2 text-sm">Alianzas estratégicas</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-24">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12 scroll-animation">
+                    <h2 class="text-3xl md:text-4xl font-bold text-white">Categorías de opiniones de usuarios sobre Qezvoro</h2>
+                </div>
+                <div id="review-filters" class="flex justify-center flex-wrap gap-3 mb-12 scroll-animation">
+                    <button class="filter-button px-5 py-2 rounded-full text-sm font-medium active" data-filter="all">Todas las categorías</button>
+                    <button class="filter-button px-5 py-2 rounded-full text-sm font-medium" data-filter="beginner">Inversores principiantes</button>
+                    <button class="filter-button px-5 py-2 rounded-full text-sm font-medium" data-filter="pro">Operadores profesionales</button>
+                    <button class="filter-button px-5 py-2 rounded-full text-sm font-medium" data-filter="international">Clientes internacionales</button>
+                </div>
+                <div id="review-grid" class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="glass-card p-8 flex flex-col review-item" data-category="beginner">
+                        <p class="text-gray-300 flex-grow">""Nunca consideré la inversión como una oportunidad para la gente común. Un amigo me recomendó la plataforma de trading Qezvoro y decidí probarla con una modesta suma de $420. ¡En quince meses, mi cartera registró un crecimiento del 63%! El asistente de IA explica cada decisión en un lenguaje accesible, y el sistema automático de gestión de riesgos funciona a la perfección. Ya he invertido $28,500 y planeo seguir aumentando mi capital.""</p>
+                        <div class="mt-6 border-t border-white/10 pt-4">
+                            <p class="font-bold text-white">Olga Melnik, 29</p>
+                            <p class="text-sm text-gray-400">Diseñadora web, Lviv</p>
+                        </div>
+                    </div>
+                    <div class="glass-card p-8 flex flex-col review-item" data-category="pro">
+                        <p class="text-gray-300 flex-grow">""Como especialista técnico, me interesaba el aspecto algorítmico: redes neuronales, aprendizaje automático y automatización de estrategias de trading. Empecé con una cuenta de prueba, estudié a fondo todas las funciones y participé en programas de formación. En diecinueve meses de trading real, obtuve $19,800 en ganancias de los $32,000 iniciales. Valoro especialmente la integración de la API: permite crear algoritmos de trading personalizados.""</p>
+                        <div class="mt-6 border-t border-white/10 pt-4">
+                            <p class="font-bold text-white">Artem Shevchenko, 32</p>
+                            <p class="text-sm text-gray-400">Ingeniero de DevOps, Kyiv</p>
+                        </div>
+                    </div>
+                    <div class="glass-card p-8 flex flex-col review-item" data-category="international">
+                        <p class="text-gray-300 flex-grow">""Llevo treinta y un años trabajando en los mercados financieros, gestionando activos por valor de 18,2 millones de dólares. Al principio, era escéptico con las soluciones de IA, pero la eficacia de Qezvoro me sorprendió. Sus algoritmos detectan patrones que el análisis tradicional no detecta. En dos años y medio de colaboración, mi rentabilidad anual ha aumentado del 28 % al 74 %. La integración de API me ha permitido automatizar el 97 % de las operaciones de trading.""</p>
+                        <div class="mt-6 border-t border-white/10 pt-4">
+                            <p class="font-bold text-white">David Smith, 49</p>
+                            <p class="text-sm text-gray-400">Gestor de cartera, Londres</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="py-24">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-16 scroll-animation">
+                    <h2 class="text-3xl md:text-4xl font-bold text-white">Ecosistema de socios estratégicos <span class="gradient-text">Qezvoro Invest</span></h2>
+                    <p class="text-lg text-gray-400 mt-4">Nuestra red de socios reúne a líderes en servicios financieros, tecnología y regulación. Esta colaboración garantiza que nuestros clientes reciban condiciones comerciales superiores, tecnología innovadora y confiabilidad de nivel institucional.</p>
+                </div>
+                <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-10 items-center">
+                    <div class="scroll-animation"><img src="https://placehold.co/150x50/0d1117/ffffff?text=Partner+1" alt="Partner 1" class="mx-auto transition-all opacity-60 hover:opacity-100"></div>
+                    <div class="scroll-animation"><img src="https://placehold.co/150x50/0d1117/ffffff?text=Partner+2" alt="Partner 2" class="mx-auto transition-all opacity-60 hover:opacity-100"></div>
+                    <div class="scroll-animation"><img src="https://placehold.co/150x50/0d1117/ffffff?text=Partner+3" alt="Partner 3" class="mx-auto transition-all opacity-60 hover:opacity-100"></div>
+                    <div class="scroll-animation"><img src="https://placehold.co/150x50/0d1117/ffffff?text=Partner+4" alt="Partner 4" class="mx-auto transition-all opacity-60 hover:opacity-100"></div>
+                    <div class="scroll-animation"><img src="https://placehold.co/150x50/0d1117/ffffff?text=Partner+5" alt="Partner 5" class="mx-auto transition-all opacity-60 hover:opacity-100"></div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="py-24">
+            <div class="container mx-auto px-6">
+                <div class="glass-card max-w-4xl mx-auto text-center p-10 md:p-16 scroll-animation">
+                    <h2 class="text-3xl md:text-4xl font-bold text-white">Únase a la comunidad de <span class="gradient-text">inversores exitosos</span></h2>
+                    <p class="text-gray-300 mt-5 text-lg">Cada reseña y cada colaboración forman parte del ecosistema de confianza que creamos junto con nuestros clientes.</p>
+                    <div class="mt-10">
+                        <a href="index.html#register" class="cta-button font-bold px-8 py-4 rounded-lg text-lg">Comience a invertir con los líderes del mercado</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="border-t border-white/10 mt-20">
+        <div class="container mx-auto px-6 py-12 text-center text-gray-500">
+            <a href="index.html" class="text-2xl font-bold accent-text">Qezvoro</a>
+            <div class="flex justify-center gap-6 my-6 text-sm">
+               <a href="about.html" class="hover:text-white transition"></a>
+               <a href="reviews.html" class="hover:text-white transition"></a>
+               <a href="contacts.html" class="hover:text-white transition"></a>
+               <a href="policy.html" class="hover:text-white transition"></a>
+            </div>
+            <p class="text-xs"></p>
+        </div>
+    </footer>
+    
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        // --- Логика для выпадающего меню языка ---
+        const langSwitcher = document.getElementById('lang-switcher');
+        if (langSwitcher) {
+            const langSwitcherButton = document.getElementById('lang-switcher-button');
+            const langSwitcherMenu = document.getElementById('lang-switcher-menu');
+            const langSwitcherText = document.getElementById('lang-switcher-text');
+            const langSwitcherList = document.getElementById('lang-switcher-list');
+
+            // Определение и отображение активного языка
+            const currentLang = document.documentElement.lang || 'en';
+            const langDisplayMap = {
+                cs: 'CS', de: 'DE', en: 'EN', es: 'ES', fr: 'FR',
+                it: 'IT', ja: 'JA', ms: 'MS', pt: 'PT', ru: 'RU'
+            };
+            if (langSwitcherText && langDisplayMap[currentLang]) {
+                langSwitcherText.textContent = langDisplayMap[currentLang];
+            }
+            if (langSwitcherList) {
+                const activeLink = langSwitcherList.querySelector(`[data-lang="${currentLang}"]`);
+                if (activeLink) {
+                    activeLink.classList.add('font-bold', 'accent-text');
+                    activeLink.style.pointerEvents = 'none'; // Делаем активную ссылку некликабельной
+                }
+            }
+            
+            // Открытие/закрытие меню по клику
+            langSwitcherButton.addEventListener('click', (event) => {
+                event.stopPropagation();
+                langSwitcherMenu.classList.toggle('hidden');
+            });
+            
+            // Закрытие меню по клику вне его
+            document.addEventListener('click', (event) => {
+                if (langSwitcherMenu && !langSwitcher.contains(event.target)) {
+                    langSwitcherMenu.classList.add('hidden');
+                }
+            });
+
+            // Динамическая смена языка с сохранением текущей страницы
+            langSwitcherList.querySelectorAll('.lang-option').forEach(link => {
+                link.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    const targetLang = link.getAttribute('data-lang');
+                    const path = window.location.pathname;
+                    const pathRegex = /\/([a-z]{2})\/([a-zA-Z0-9_.-]+)$/;
+                    const match = path.match(pathRegex);
+
+                    if (match && match.length === 3) {
+                        const currentFile = match[2];
+                        const newPath = `../${targetLang}/${currentFile}`;
+                        window.location.href = newPath;
+                    } else {
+                        console.warn('Could not determine current page structure from URL:', path);
+                        // Фоллбэк для главной страницы в корне
+                        window.location.href = `../${targetLang}/index.html`;
+                    }
+                });
+            });
+        }
+
+        // --- Анимации при прокрутке ---
+        if ('IntersectionObserver' in window) {
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.1 });
+            document.querySelectorAll('.scroll-animation').forEach(el => observer.observe(el));
+        } else {
+            document.querySelectorAll('.scroll-animation').forEach(el => el.classList.add('visible'));
+        }
+
+        // --- Анимированные счетчики ---
+        const counterObserver = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const counter = entry.target;
+                    const target = +counter.getAttribute('data-target');
+                    const isDecimal = counter.getAttribute('data-decimal');
+                    const duration = 2000;
+                    let startTime = null;
+                    const step = (timestamp) => {
+                        if (!startTime) startTime = timestamp;
+                        const progress = Math.min((timestamp - startTime) / duration, 1);
+                        let currentValue = progress * target;
+                        if (isDecimal) {
+                            counter.innerText = currentValue.toFixed(parseInt(isDecimal));
+                        } else {
+                            counter.innerText = Math.floor(currentValue).toLocaleString('en-US');
+                        }
+                        if (progress < 1) {
+                            requestAnimationFrame(step);
+                        } else {
+                           if (isDecimal) {
+                               counter.innerText = target.toFixed(parseInt(isDecimal));
+                           } else {
+                               counter.innerText = target.toLocaleString('en-US');
+                           }
+                        }
+                    };
+                    requestAnimationFrame(step);
+                    observer.unobserve(counter);
+                }
+            });
+        }, { threshold: 0.5 });
+        document.querySelectorAll('.counter').forEach(counter => { counterObserver.observe(counter); });
+        
+        // --- Логика для фильтрации отзывов (только для страницы reviews.html) ---
+        const reviewFilters = document.getElementById('review-filters');
+        const reviewGrid = document.getElementById('review-grid');
+        if (reviewFilters && reviewGrid) {
+            const filterButtons = reviewFilters.querySelectorAll('button');
+            const reviewItems = reviewGrid.querySelectorAll('.review-item');
+            filterButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    const filter = button.dataset.filter;
+                    filterButtons.forEach(btn => btn.classList.remove('active'));
+                    button.classList.add('active');
+                    reviewItems.forEach(item => {
+                        const category = item.dataset.category;
+                        if (filter === 'all' || filter === category) {
+                            item.style.display = 'flex';
+                        } else {
+                            item.style.display = 'none';
+                        }
+                    });
+                });
+            });
+        }
+        
+        // --- Плавная прокрутка для якорных ссылок ---
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                if(targetElement) {
+                    targetElement.scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        });
+    });
+</script>
+</body>
+</html>
